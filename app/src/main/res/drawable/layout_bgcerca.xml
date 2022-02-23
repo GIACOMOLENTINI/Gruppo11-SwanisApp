@@ -3,7 +3,7 @@
     <solid Android:color="@android:color/holo_blue_light"/>
     <stroke/>
     <corners Android:topLeftRadius="40dp" Android:topRightRadius="40dp"
-        Android:bottomLeftRadius="0.1dp" Android:bottomRightRadius="0.1dp" />
+        Android:bottomLeftRadius="40dp" Android:bottomRightRadius="40dp" />
     <padding Android:left="0dp" Android:top="0dp" Android:right="0dp"
         Android:bottom="0dp"/>
 </shape>

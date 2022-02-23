@@ -9,9 +9,9 @@
 
     <View
         android:id="@+id/primaparte"
-        android:layout_width="410dp"
-        android:layout_height="254dp"
-        android:foreground="#6633FF"
+        android:layout_width="413dp"
+        android:layout_height="314dp"
+        android:background="#041339"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -22,72 +22,82 @@
     <View
         android:id="@+id/secondaparte"
         android:layout_width="411dp"
-        android:layout_height="450dp"
+        android:layout_height="476dp"
         android:background="@drawable/layout_bg"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="198dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="254dp" />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/view"
+        android:layout_width="407dp"
+        android:layout_height="111dp"
         android:layout_marginTop="648dp"
-        app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="0dp" />
+        android:background="#041339"
+        android:rotationX="52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/primaparte" />
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="150dp"
-        android:layout_height="70dp"
-        android:text="Classe: RETTILI"
+        android:layout_width="146dp"
+        android:layout_height="62dp"
+        android:text="RETTILI"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="40dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="60dp"
-        android:layout_height="65dp"
-        android:background="@drawable/foto_utente"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="34dp"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="16dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
         android:text="Francesco"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="103dp" />
 
     <SearchView
-        android:layout_width="60dp"
-        android:layout_height="71dp"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:background="@drawable/layout_bgcerca"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="219dp" />
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="182dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="235dp"
+        android:layout_height="52dp"
+        android:background="@drawable/layout_bgcerca"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="CERCA"
+        android:text="                   RICERCA"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteY="182dp" />
 
     <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="364dp"
-        android:layout_marginTop="284dp"
+        android:layout_width="417dp"
+        android:layout_height="413dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/secondaparte"
         app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintVertical_bias="0.453"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -161,16 +171,17 @@
         android:id="@+id/imageButton20"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="664dp" />
+
     <ImageButton
         android:id="@+id/imageButton21"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="664dp" />
 
     <ImageButton
         android:id="@+id/imageButton22"
@@ -182,4 +193,14 @@
         tools:layout_editor_absoluteX="175dp"
         tools:layout_editor_absoluteY="664dp"
         tools:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="297dp"
+        android:layout_height="129dp"
+        android:text="Rappresentarono la prima classe di vertebrati svincolatasi dall'ambiente acquatico e quindi adattata, per le fondamentali funzioni biologiche, alla vita in un ambiente strettamente terrestre. Il numero di specie di rettili attualmente viventi è di circa 11 341"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="50dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
