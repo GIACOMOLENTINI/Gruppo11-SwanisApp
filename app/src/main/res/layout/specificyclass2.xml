@@ -56,7 +56,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="324dp"
         tools:layout_editor_absoluteY="16dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/Francesco" />
 
     <TextView
         android:id="@+id/textView4"
