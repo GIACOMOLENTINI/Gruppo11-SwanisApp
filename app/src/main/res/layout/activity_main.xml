@@ -5,48 +5,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
+    tools:context=".SpecificyClass">
 
     <View
         android:id="@+id/primaparte"
-        android:layout_width="410dp"
-        android:layout_height="248dp"
-        android:foreground="#6633FF"
+        android:layout_width="413dp"
+        android:layout_height="314dp"
+        android:background="#041339"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <RelativeLayout
+    <View
         android:id="@+id/secondaparte"
         android:layout_width="411dp"
-        android:layout_height="450dp"
+        android:layout_height="476dp"
+        android:background="@drawable/layout_bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="407dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="648dp"
+        android:background="#041339"
+        android:rotationX="52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/primaparte" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:text="SCOPRI DI PIU':"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLASSI ANIMALI"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
+        android:text="Francesco"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <SearchView
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:background="@drawable/layout_bgcerca"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="235dp"
+        android:layout_height="52dp"
+        android:background="@drawable/layout_bgcerca"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="                   RICERCA"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <RelativeLayout
+        android:id="@+id/secondaparte1"
+        android:layout_width="411dp"
+        android:layout_height="399dp"
         android:background="@drawable/layout_bg"
         android:bottomLeftRadius="25dp"
         android:bottomRightRadius="25dp"
         android:topLeftRadius="25dp"
         android:topRightRadius="25dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="198dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="254dp">
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -60,7 +125,7 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="183dp"
-                    android:layout_height="300dp"
+                    android:layout_height="270dp"
                     android:layout_marginBottom="156dp"
                     android:translationY="60dp"
                     android:visibility="visible"
@@ -74,7 +139,7 @@
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="183dp"
-                    android:layout_height="300dp"
+                    android:layout_height="270dp"
                     android:layout_marginBottom="156dp"
                     android:translationY="60dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +150,7 @@
                 <ImageView
                     android:id="@+id/imageView7"
                     android:layout_width="183dp"
-                    android:layout_height="300dp"
+                    android:layout_height="270dp"
                     android:layout_marginBottom="156dp"
                     android:translationY="60dp"
                     android:visibility="visible"
@@ -99,7 +164,7 @@
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="183dp"
-                    android:layout_height="300dp"
+                    android:layout_height="270dp"
                     android:layout_marginBottom="156dp"
                     android:translationY="60dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -111,87 +176,41 @@
         </HorizontalScrollView>
     </RelativeLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="648dp"
-        app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="Scopri di più"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="42dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ImageButton
+        android:id="@+id/imageButton20"
         android:layout_width="60dp"
-        android:layout_height="65dp"
-        android:background="@drawable/foto_utente"
+        android:layout_height="60dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="34dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="664dp" />
 
-    <SearchView
+    <ImageButton
+        android:id="@+id/imageButton21"
         android:layout_width="60dp"
-        android:layout_height="71dp"
+        android:layout_height="60dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteY="664dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CERCA"
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/home"
+        android:tint="@color/material_on_primary_emphasis_medium"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="113dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Francesco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="113dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CLASSE"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="215dp" />
-
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="664dp"
+        tools:src="@drawable/home" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/layout_bgcerca"
         android:text="Inserisci Segnalazione"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="96dp"
         tools:layout_editor_absoluteY="588dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

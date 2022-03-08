@@ -11,7 +11,7 @@
         android:id="@+id/primaparte"
         android:layout_width="413dp"
         android:layout_height="186dp"
-        android:foreground="#6633FF"
+        android:background="#041339"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,17 +21,20 @@
 
     <View
         android:id="@+id/secondaparte"
-        android:layout_width="409dp"
-        android:layout_height="502dp"
+        android:layout_width="412dp"
+        android:layout_height="565dp"
         android:background="@drawable/layout_bg"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="146dp" />
+        tools:layout_editor_absoluteY="155dp" />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/view2"
+        android:layout_width="411dp"
+        android:layout_height="104dp"
         android:layout_marginTop="648dp"
+        android:background="#041339"
+        android:rotationX="52"
         app:layout_constraintTop_toTopOf="@+id/primaparte"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -65,12 +68,12 @@
         tools:layout_editor_absoluteY="112dp" />
 
     <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="461dp"
-        android:layout_marginTop="184dp"
-        app:layout_constraintTop_toTopOf="@+id/primaparte"
+        android:layout_width="412dp"
+        android:layout_height="505dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton22"
+        app:layout_constraintTop_toBottomOf="@+id/primaparte"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="-2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -119,12 +122,14 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
+
                 <TextView
                     android:id="@+id/textViewRepeat"
                     android:layout_width="187dp"
                     android:layout_height="83dp"
                     android:text="Segnalazione nr.A3423                            Mario Rossi                                Specie:                Appartenenza:   Localizzazione:"
                     android:textColor="@color/black" />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -140,6 +145,7 @@
                     android:layout_height="40dp"
                     android:src="@android:drawable/ic_delete" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -149,12 +155,14 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
+
                 <TextView
                     android:id="@+id/textViewRepeat2"
                     android:layout_width="187dp"
                     android:layout_height="83dp"
                     android:text="Segnalazione nr.A3423                            Mario Rossi                                Specie:                Appartenenza:   Localizzazione:"
                     android:textColor="@color/black" />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -170,6 +178,7 @@
                     android:layout_height="40dp"
                     android:src="@android:drawable/ic_delete" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -179,12 +188,14 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
+
                 <TextView
                     android:id="@+id/textViewRepeat3"
                     android:layout_width="187dp"
                     android:layout_height="83dp"
                     android:text="Segnalazione nr.A3423                            Mario Rossi                                Specie:                Appartenenza:   Localizzazione:"
                     android:textColor="@color/black" />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -200,6 +211,7 @@
                     android:layout_height="40dp"
                     android:src="@android:drawable/ic_delete" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -209,12 +221,14 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
+
                 <TextView
                     android:id="@+id/textViewRepeat4"
                     android:layout_width="187dp"
                     android:layout_height="83dp"
                     android:text="Segnalazione nr.A3423                            Mario Rossi                                Specie:                Appartenenza:   Localizzazione:"
                     android:textColor="@color/black" />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -230,6 +244,7 @@
                     android:layout_height="40dp"
                     android:src="@android:drawable/ic_delete" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -239,12 +254,14 @@
                     android:layout_width="110dp"
                     android:layout_height="110dp"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
+
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="187dp"
                     android:layout_height="83dp"
                     android:text="Segnalazione nr.A3423                            Mario Rossi                                Specie:                Appartenenza:   Localizzazione:"
                     android:textColor="@color/black" />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"

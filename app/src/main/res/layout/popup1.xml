@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="">
+    >
 
     <View
         android:id="@+id/primaparte"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="#6633FF"
+        android:foreground="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="Segnalazione registrata correttamente!"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="40dp"
             android:translationY="150dp" />
     </RelativeLayout>

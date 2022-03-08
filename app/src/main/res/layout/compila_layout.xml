@@ -9,9 +9,9 @@
 
     <View
         android:id="@+id/primaparte"
-        android:layout_width="410dp"
-        android:layout_height="254dp"
-        android:foreground="#6633FF"
+        android:layout_width="424dp"
+        android:layout_height="252dp"
+        android:foreground="#041339"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,17 +21,19 @@
 
     <View
         android:id="@+id/secondaparte"
-        android:layout_width="411dp"
-        android:layout_height="450dp"
+        android:layout_width="419dp"
+        android:layout_height="543dp"
         android:background="@drawable/layout_bg"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="198dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="198dp" />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="411dp"
+        android:layout_height="104dp"
         android:layout_marginTop="648dp"
+        android:background="#041339"
+        android:rotationX="52"
         app:layout_constraintTop_toTopOf="@+id/primaparte"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -88,6 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Utente"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="336dp"
         tools:layout_editor_absoluteY="113dp"
         tools:ignore="MissingConstraints" />
@@ -98,7 +101,8 @@
         android:layout_height="120dp"
         app:srcCompat="@android:drawable/ic_menu_gallery"
         tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteY="189dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -106,16 +110,18 @@
         android:layout_height="30dp"
         app:srcCompat="@android:drawable/ic_input_add"
         tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="239dp" />
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="43dp"
         android:layout_height="42dp"
-        android:background="#6633FF"
+        android:background=""
         app:srcCompat="@drawable/abc_vector_test"
         tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="9dp" />
+        tools:layout_editor_absoluteY="9dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
