@@ -38,31 +38,35 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:id="@+id/imageButton20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        android:background="#041339"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_menu" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        android:id="@+id/imageButton21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_back" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        android:id="@+id/imageButton22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        android:src="@drawable/ic_home"
+        android:tint="@color/material_on_primary_emphasis_medium"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="676dp" />
 
     <TextView
         android:id="@+id/textView3"

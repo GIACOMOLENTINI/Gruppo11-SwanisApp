@@ -21,11 +21,11 @@
 
     <View
         android:id="@+id/secondaparte"
-        android:layout_width="412dp"
-        android:layout_height="565dp"
+        android:layout_width="422dp"
+        android:layout_height="567dp"
         android:background="@drawable/layout_bg"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteX="-8dp"
         tools:layout_editor_absoluteY="155dp" />
 
     <View
@@ -63,13 +63,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Flavia"
+        android:textColor="@color/white"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="112dp" />
 
     <ScrollView
-        android:layout_width="412dp"
-        android:layout_height="505dp"
+        android:layout_width="420dp"
+        android:layout_height="483dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton22"
         app:layout_constraintTop_toBottomOf="@+id/primaparte"
         tools:ignore="MissingConstraints"
@@ -283,27 +284,32 @@
 
     <ImageButton
         android:id="@+id/imageButton20"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        android:background="#041339"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_menu" />
+
     <ImageButton
         android:id="@+id/imageButton21"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_back" />
 
     <ImageButton
         android:id="@+id/imageButton22"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        android:src="@drawable/ic_home"
         android:tint="@color/material_on_primary_emphasis_medium"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="664dp"
-        tools:src="@drawable/home" />
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="676dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
