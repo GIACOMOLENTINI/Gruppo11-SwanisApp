@@ -112,7 +112,9 @@
                 android:translationY="60dp"
                 tools:layout_editor_absoluteX="49dp"
                 tools:layout_editor_absoluteY="341dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/lepre" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
@@ -122,7 +124,9 @@
                 android:translationY="-70dp"
                 tools:layout_editor_absoluteX="238dp"
                 tools:layout_editor_absoluteY="341dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/volpe" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
@@ -132,7 +136,9 @@
                 android:translationY="-20dp"
                 tools:layout_editor_absoluteX="49dp"
                 tools:layout_editor_absoluteY="341dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/zebra" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
@@ -142,7 +148,9 @@
                 android:translationY="-150dp"
                 tools:layout_editor_absoluteX="238dp"
                 tools:layout_editor_absoluteY="341dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/scoiattolo" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
@@ -152,7 +160,9 @@
                 android:translationY="-110dp"
                 tools:layout_editor_absoluteX="49dp"
                 tools:layout_editor_absoluteY="507dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/nutria" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -162,7 +172,9 @@
                 android:translationY="-240dp"
                 tools:layout_editor_absoluteX="238dp"
                 tools:layout_editor_absoluteY="507dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@drawable/coyote" />
 
         </LinearLayout>
     </ScrollView>

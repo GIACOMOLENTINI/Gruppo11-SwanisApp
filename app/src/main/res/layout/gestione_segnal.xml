@@ -89,7 +89,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/volpe" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -122,7 +125,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/vipera" />
 
                 <TextView
                     android:id="@+id/textViewRepeat"
@@ -155,7 +161,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/testugpalustre" />
 
                 <TextView
                     android:id="@+id/textViewRepeat2"
@@ -188,7 +197,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/scoiattolo" />
 
                 <TextView
                     android:id="@+id/textViewRepeat3"
@@ -221,7 +233,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/nutria" />
 
                 <TextView
                     android:id="@+id/textViewRepeat4"
@@ -254,7 +269,10 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/geco" />
 
                 <TextView
                     android:id="@+id/textView2"
