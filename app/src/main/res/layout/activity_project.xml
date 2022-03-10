@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectActivity">
+
+    <View
+        android:id="@+id/primaparte"
+        android:layout_width="413dp"
+        android:layout_height="186dp"
+        android:background="#041339"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/secondaparte"
+        android:layout_width="422dp"
+        android:layout_height="567dp"
+        android:background="@drawable/layout_bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="411dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="648dp"
+        android:background="#041339"
+        android:rotationX="52"
+        app:layout_constraintTop_toTopOf="@+id/primaparte"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="224dp"
+        android:layout_height="70dp"
+        android:text="PROGETTI"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <SearchView
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:background="@drawable/layout_bgcerca"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="235dp"
+        android:layout_height="52dp"
+        android:background="@drawable/layout_bgcerca"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="                   RICERCA"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:background="@drawable/foto_utente"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="34dp"
+        tools:srcCompat="@drawable/Francesco" />
+
+    <TextView
+        android:id="@+id/textViewUtente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Francesco"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ScrollView
+        android:layout_width="420dp"
+        android:layout_height="483dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton22"
+        app:layout_constraintTop_toBottomOf="@+id/primaparte"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/volpe" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button24"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/vipera" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button26"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/testugpalustre" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/scoiattolo" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/nutria" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button32"
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/geco" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="                      Alla scoperta della
+                                    pernice bianca"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Descrizione"
+                        android:layout_marginTop="10dp"/>
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Partecipa" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        android:background="#041339"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_utente" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:src="@drawable/ic_back" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#041339"
+        android:src="@drawable/ic_home"
+        android:tint="@color/material_on_primary_emphasis_medium"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="676dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
