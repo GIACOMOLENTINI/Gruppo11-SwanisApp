@@ -35,7 +35,8 @@
         android:background="#041339"
         android:rotationX="52"
         app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton20"
@@ -121,7 +122,6 @@
         android:id="@+id/imageButton9"
         android:layout_width="43dp"
         android:layout_height="42dp"
-        android:background=""
         app:srcCompat="@drawable/abc_vector_test"
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="9dp"
