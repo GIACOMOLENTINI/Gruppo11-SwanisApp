@@ -17,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"/>
 
     <View
         android:id="@+id/secondaparte"
@@ -122,20 +122,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:id="@+id/imageView5"
+                <Button
+                    android:id="@+id/btn"
                     android:layout_width="183dp"
                     android:layout_height="270dp"
                     android:layout_marginBottom="156dp"
                     android:translationY="60dp"
                     android:translationX="10dp"
-                    android:visibility="visible"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@android:color/secondary_text_light"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:srcCompat="@drawable/mammiferi"
-                    tools:visibility="visible" />
+                    android:background="@drawable/mammiferi" />
 
                 <ImageButton
                     android:id="@+id/imageView6"
