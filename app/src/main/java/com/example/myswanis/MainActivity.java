@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button1 = (Button)findViewById(R.id.btn);
+        ImageButton button1 = (ImageButton)findViewById(R.id.btn);
         ImageButton button2 = (ImageButton)findViewById(R.id.imageView6);
 
         button1.setOnClickListener(
-                new Button.OnClickListener() {
+                new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         Intent openPage1 = new Intent(MainActivity.this,SpecificyClass2.class);
                         startActivity(openPage1);
