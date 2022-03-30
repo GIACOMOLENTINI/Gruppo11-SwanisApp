@@ -1,235 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SpecificyClass">
+    android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/primaparte"
-        android:layout_width="413dp"
-        android:layout_height="314dp"
-        android:background="#041339"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#041339">
 
-    <View
-        android:id="@+id/secondaparte"
-        android:layout_width="411dp"
-        android:layout_height="476dp"
-        android:background="@drawable/layout_bg"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="254dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="407dp"
-        android:layout_height="111dp"
-        android:layout_marginTop="648dp"
-        android:background="#041339"
-        android:rotationX="52"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/primaparte" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="298dp"
+                android:layout_height="60dp"
+                android:text="SCOPRI DI PIU':"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="298dp"
-        android:layout_height="60dp"
-        android:text="SCOPRI DI PIU':"
-        android:textColor="@color/white"
-        android:textSize="40dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="33dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/Flavia"
+                />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CLASSI ANIMALI"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="129dp" />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="77dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="324dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:srcCompat="@drawable/Flavia" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="80dp"
-        android:layout_height="26dp"
-        android:text="Flavia"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="345dp"
-        tools:layout_editor_absoluteY="103dp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLASSI ANIMALI"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
 
-    <SearchView
-        android:layout_width="59dp"
-        android:layout_height="53dp"
-        android:background="@drawable/layout_bgcerca"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="190dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="FLAVIA"
+                android:textSize="16dp"
+                android:translationX="50dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="235dp"
-        android:layout_height="52dp"
-        android:background="@drawable/layout_bgcerca"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="                   RICERCA"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="190dp" />
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="235dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bgcerca"
+                android:ems="10"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:text="RICERCA"
+                android:gravity="center"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="10dp"/>
 
-    <RelativeLayout
-        android:id="@+id/secondaparte1"
-        android:layout_width="411dp"
-        android:layout_height="399dp"
-        android:background="@drawable/layout_bg"
-        android:bottomLeftRadius="25dp"
-        android:bottomRightRadius="25dp"
-        android:topLeftRadius="25dp"
-        android:topRightRadius="25dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="254dp">
+            <SearchView
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bgcerca"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
 
         <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="388dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="350dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/layout_bgcerca"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="183dp"
-                    android:layout_height="270dp"
-                    android:layout_marginBottom="156dp"
-                    android:translationY="60dp"
-                    android:translationX="10dp"
-                    android:visibility="visible"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@android:color/secondary_text_light"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:srcCompat="@drawable/mammiferi"
-                    tools:visibility="visible" />
+                <ImageButton
+                    android:id="@+id/btn"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/mammiferi"
+                    android:translationX="15dp" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView6"
-                    android:layout_width="183dp"
-                    android:layout_height="270dp"
-                    android:layout_marginBottom="156dp"
-                    android:translationY="60dp"
-                    android:translationX="20dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@drawable/anfibi"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="251dp" />
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/anfibi"
+                    android:translationX="30dp" />
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="183dp"
-                    android:layout_height="270dp"
-                    android:layout_marginBottom="156dp"
-                    android:translationY="60dp"
-                    android:translationX="30dp"
-                    android:visibility="visible"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@drawable/pesci"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="251dp"
-                    tools:visibility="visible" />
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="183dp"
-                    android:layout_height="270dp"
-                    android:layout_marginBottom="156dp"
-                    android:translationX="40dp"
-                    android:translationY="60dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@drawable/rettili"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="251dp" />
-
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="183dp"
-                    android:layout_height="270dp"
-                    android:layout_marginBottom="156dp"
-                    android:translationX="50dp"
-                    android:translationY="60dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:srcCompat="@drawable/uccelli"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="251dp" />
+                <ImageButton
+                    android:id="@+id/btn1"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/mammiferi"
+                    android:translationX="45dp" />
 
             </LinearLayout>
         </HorizontalScrollView>
-    </RelativeLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        tools:ignore="MissingConstraints"
-        android:background="#041339"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_menu" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
 
-    <ImageButton
-        android:id="@+id/imageButton21"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_back" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:background="@drawable/layout_bgcerca"
+                android:text="INSERISCI SEGNALAZIONE"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:translationX="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <ImageButton
-        android:id="@+id/imageButton22"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        android:src="@drawable/ic_home"
-        android:tint="@color/material_on_primary_emphasis_medium"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="676dp" />
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bgcerca"
+                android:translationX="15dp"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/layout_bgcerca"
-        android:text="Inserisci Segnalazione"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="588dp" />
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bgcerca"
+                android:translationX="125dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bgcerca"
+                android:translationX="250dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
