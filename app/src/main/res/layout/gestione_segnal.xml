@@ -52,11 +52,10 @@
         android:id="@+id/imageView"
         android:layout_width="60dp"
         android:layout_height="65dp"
-        android:background="@drawable/foto_utente"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="326dp"
         tools:layout_editor_absoluteY="34dp"
-        tools:srcCompat="@drawable/Flavia" />
+        tools:srcCompat="@drawable/flavia" />
 
     <TextView
         android:id="@+id/textViewUtente"

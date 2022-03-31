@@ -99,13 +99,6 @@
         tools:layout_editor_absoluteY="9dp"
         tools:ignore="MissingConstraints" />
 
-    <ScrollView
-        android:layout_width="408dp"
-        android:layout_height="365dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="304dp">
-
             <TextView
                 android:id="@+id/textViewtit"
                 android:layout_width="260dp"
@@ -190,9 +183,8 @@
                 android:text="PARTECIPA"
                 android:textColor="@color/black"
                 android:translationX="150dp"
-                android:translationY="50dp" />
-
-    </ScrollView>
+                android:translationY="50dp"
+                tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
