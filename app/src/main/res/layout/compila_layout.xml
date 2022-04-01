@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#041339">
+        android:background="@drawable/gradient_background">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,6 +21,7 @@
                 android:text="INSERIMENTO SEGNALAZIONE"
                 android:layout_marginHorizontal="30dp"
                 android:textColor="@color/white"
+                android:paddingTop="10dp"
                 android:textSize="30dp"/>
 
             <ImageView
@@ -35,9 +36,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
 
             <TextView
                 android:id="@+id/textView4"
@@ -51,7 +51,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="480dp"
+            android:layout_height="470dp"
             android:background="@drawable/layout_bgcerca"
             android:orientation="vertical">
 
@@ -64,7 +64,8 @@
                 android:id="@+id/imageButton8"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:translationX="240dp"/>
+                android:translationX="250dp"
+                android:translationY="-25dp"/>
             <EditText
                 android:id="@+id/editTextTextPersonName1"
                 android:layout_width="wrap_content"
@@ -148,22 +149,25 @@
                 android:id="@+id/imageButton20"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="15dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="15dp"
+                android:src="@drawable/ic_data"/>
 
             <ImageButton
                 android:id="@+id/imageButton21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="125dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="125dp"
+                android:src="@drawable/ic_home"/>
 
             <ImageButton
                 android:id="@+id/imageButton22"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="250dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="250dp"
+                android:src="@drawable/ic_utente"/>
 
         </LinearLayout>
     </LinearLayout>
