@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#041339">
+        android:background="@drawable/gradient_background">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,6 +30,7 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="160dp"
+                android:background="@drawable/francesco"
                 />
 
         </LinearLayout>
@@ -81,106 +82,95 @@
 
         </LinearLayout>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="360dp">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="360dp"
             android:background="@drawable/layout_bgcerca"
             android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
 
                     <ImageButton
                         android:id="@+id/btn"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
-                        android:layout_marginTop="30dp"
-                        android:background="@drawable/mammiferi"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/alligatmissisi"
                         android:translationX="50dp" />
 
                     <ImageButton
                         android:id="@+id/imageView6"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
-                        android:layout_marginTop="30dp"
-                        android:background="@drawable/anfibi"
-                        android:translationX="100dp" />
-                </LinearLayout>
+                        android:layout_marginTop="-130dp"
+                        android:background="@drawable/lucertolamuraiola"
+                        android:translationX="230dp" />
 
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/testugpalustre"
+                android:translationX="50dp" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="-130dp"
+                android:background="@drawable/vipera"
+                android:translationX="230dp" />
 
-                    <ImageButton
-                        android:id="@+id/btn1"
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
-                        android:layout_marginTop="60dp"
-                        android:background="@drawable/mammiferi"
-                        android:translationX="50dp" />
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/geco"
+                android:translationX="50dp" />
 
-                    <ImageButton
-                        android:id="@+id/imageView10"
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
-                        android:layout_marginTop="60dp"
-                        android:background="@drawable/anfibi"
-                        android:translationX="100dp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/btn2"
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
-                        android:layout_marginTop="60dp"
-                        android:background="@drawable/mammiferi"
-                        android:translationX="50dp" />
-
-                    <ImageButton
-                        android:id="@+id/imageView11"
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
-                        android:layout_marginTop="60dp"
-                        android:background="@drawable/anfibi"
-                        android:translationX="100dp" />
-                </LinearLayout>
-
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="-130dp"
+                android:background="@drawable/boaconstrictor"
+                android:translationX="230dp" />
         </LinearLayout>
+        </ScrollView>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
 
             <ImageButton
                 android:id="@+id/imageButton20"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="15dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="15dp"
+                android:src="@drawable/ic_data"/>
 
             <ImageButton
                 android:id="@+id/imageButton21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="125dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="125dp"
+                android:src="@drawable/ic_home"/>
 
             <ImageButton
                 android:id="@+id/imageButton22"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/layout_bgcerca"
-                android:translationX="250dp"/>
+                android:background="@drawable/layout_bg"
+                android:translationX="250dp"
+                android:src="@drawable/ic_utente"/>
 
         </LinearLayout>
     </LinearLayout>
