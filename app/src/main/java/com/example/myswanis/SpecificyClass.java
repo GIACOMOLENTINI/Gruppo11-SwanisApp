@@ -14,7 +14,7 @@ public class SpecificyClass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.specificyclass);
         ImageButton button1 = (ImageButton)findViewById(R.id.btn);
-        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
+        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
 

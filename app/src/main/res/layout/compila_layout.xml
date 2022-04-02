@@ -37,7 +37,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="20dp">
+            android:paddingBottom="10dp">
 
             <TextView
                 android:id="@+id/textView4"
@@ -51,7 +51,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="470dp"
+            android:layout_height="540dp"
             android:background="@drawable/layout_bgcerca"
             android:orientation="vertical">
 
@@ -89,7 +89,7 @@
             <EditText
                 android:id="@+id/editTextTextPersonName3"
                 android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
@@ -117,6 +117,30 @@
                 android:inputType="textPersonName"
                 android:text="Specie"/>
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:background="@drawable/layout_bgcerca"
+                android:text="INSERISCI SEGNALAZIONE"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:translationX="100dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:background="@drawable/layout_bgcerca"
+                android:text="COS'HAI VISTO? SUGGERIMENTI"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
         </LinearLayout>
 
     <LinearLayout
@@ -124,17 +148,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="235dp"
-                android:layout_height="60dp"
-                android:background="@drawable/layout_bgcerca"
-                android:text="INSERISCI SEGNALAZIONE"
-                android:textSize="18dp"
-                android:textColor="@color/white"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:translationX="100dp" />
+
 
     </LinearLayout>
 

@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class ProjectActivity extends AppCompatActivity {
+public class Gestion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project);
+        setContentView(R.layout.gestione_segnal);
 
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
@@ -21,21 +21,21 @@ public class ProjectActivity extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ProjectActivity.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(Gestion.this,ProjectActivity.class);
                         startActivity(openPage2);
                     };
                 });
         button5.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ProjectActivity.this,MainActivity.class);
+                        Intent openPage2 = new Intent(Gestion.this,MainActivity.class);
                         startActivity(openPage2);
                     };
                 });
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ProjectActivity.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(Gestion.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });
