@@ -82,15 +82,20 @@
 
         </LinearLayout>
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="360dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/layout_bgcerca">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="360dp"
-            android:background="@drawable/layout_bgcerca"
-            android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp">
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="350dp"
+                android:orientation="vertical">
 
                     <ImageButton
                         android:id="@+id/btn"
@@ -139,8 +144,9 @@
                 android:layout_marginTop="-130dp"
                 android:background="@drawable/boaconstrictor"
                 android:translationX="230dp" />
-        </LinearLayout>
+            </LinearLayout>
         </ScrollView>
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

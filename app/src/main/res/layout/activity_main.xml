@@ -5,7 +5,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/gradient_background">
 
@@ -81,18 +81,21 @@
                 android:layout_marginTop="10dp"/>
 
         </LinearLayout>
-
-
-        <HorizontalScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/layout_bgcerca"
+                android:background="@drawable/layout_bgcerca">
+
+                <HorizontalScrollView
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="350dp"
                 android:orientation="horizontal">
+
 
                 <ImageButton
                     android:id="@+id/btn"
@@ -118,8 +121,11 @@
                     android:background="@drawable/mammiferi"
                     android:translationX="45dp" />
 
+
             </LinearLayout>
-        </HorizontalScrollView>
+                </HorizontalScrollView>
+            </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"

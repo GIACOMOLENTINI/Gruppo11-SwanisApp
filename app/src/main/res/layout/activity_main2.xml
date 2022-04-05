@@ -83,15 +83,19 @@
         </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/layout_bgcerca">
+
         <HorizontalScrollView
-            android:layout_width="wrap_content"
+            android:layout_width="410dp"
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="410dp"
                 android:layout_height="350dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/layout_bgcerca"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -120,6 +124,7 @@
 
             </LinearLayout>
         </HorizontalScrollView>
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
