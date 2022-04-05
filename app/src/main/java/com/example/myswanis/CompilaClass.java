@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class CompilaClass extends AppCompatActivity {
 
@@ -23,8 +24,7 @@ public class CompilaClass extends AppCompatActivity {
         button3.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage3 = new Intent(CompilaClass.this,Pop1.class);
-                        startActivity(openPage3);
+                        Toast.makeText(getApplicationContext(), "INSERIMENTO AVVENUTO!!!" , Toast.LENGTH_LONG).show();
                     };
                 });
         button4.setOnClickListener(
