@@ -1,190 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ProjectClass">
+    android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/primaparte"
-        android:layout_width="417dp"
-        android:layout_height="247dp"
-        android:foreground="#041339"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background">
 
-    <View
-        android:id="@+id/secondaparte"
-        android:layout_width="411dp"
-        android:layout_height="533dp"
-        android:background="@drawable/layout_bg"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="198dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <View
-        android:layout_width="412dp"
-        android:layout_height="104dp"
-        android:layout_marginTop="648dp"
-        android:background="#041339"
-        android:rotationX="52"
-        app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:translationX="100dp"
+                android:background="@drawable/alligatmissisi"/>
 
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        tools:ignore="MissingConstraints"
-        android:background="#041339"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_utente" />
+        </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton21"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_data" />
-
-    <ImageButton
-        android:id="@+id/imageButton22"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        android:src="@drawable/ic_home"
-        android:tint="@color/material_on_primary_emphasis_medium"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="676dp" />
-
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="351dp"
-        android:layout_height="71dp"
-        android:text="ALLA SCOPERTA DELLA PERNICE BIANCA"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="232dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:srcCompat="@drawable/scoiattolo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="43dp"
-        android:layout_height="42dp"
-        app:srcCompat="@drawable/abc_vector_test"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="9dp"
-        tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textViewtit"
-                android:layout_width="260dp"
+                android:id="@+id/textView7"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:text="DESCRIZIONE"
-                android:textColor="#041339"
-                android:textSize="18dp"
-                android:translationX="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="31dp"
-                tools:layout_editor_absoluteY="325dp" />
-
-
-            <TextView
-                android:id="@+id/textViewdescr"
-                android:layout_width="348dp"
-                android:layout_height="62dp"
-                android:text="Rappresentarono la prima classe di vertebrati svincolatasi dall'ambiente acquatico e quindi adattata, per le fondamentali funzioni biologiche."
+                android:text="ALLIGATORE"
                 android:textColor="@color/white"
-                android:translationX="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="34dp"
-                tools:layout_editor_absoluteY="351dp" />
+                android:textSize="30dp"
+                android:translationX="110dp"/>
+        </LinearLayout>
 
-            <TextView
-                android:id="@+id/textViewtit2"
-                android:layout_width="260dp"
-                android:layout_height="wrap_content"
-                android:text="ORGANIZZATORE"
-                android:textColor="#041339"
-                android:textSize="18dp"
-                android:translationX="40dp"
-                android:translationY="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="31dp"
-                tools:layout_editor_absoluteY="325dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/layout_bgcerca">
 
-
-            <TextView
-                android:id="@+id/textViewdescr2"
-                android:layout_width="348dp"
-                android:layout_height="29dp"
-                android:text="Ambasciata Campania"
-                android:textColor="@color/white"
-                android:translationX="40dp"
-                android:translationY="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="34dp"
-                tools:layout_editor_absoluteY="351dp" />
-
-            <TextView
-                android:id="@+id/textViewtit3"
-                android:layout_width="260dp"
-                android:layout_height="wrap_content"
-                android:text="ORGANIZZATORE"
-                android:textColor="#041339"
-                android:textSize="18dp"
-                android:translationX="40dp"
-                android:translationY="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="31dp"
-                tools:layout_editor_absoluteY="325dp" />
-
-
-            <TextView
-                android:id="@+id/textViewdescr3"
-                android:layout_width="348dp"
-                android:layout_height="29dp"
-                android:text="Ambasciata Campania"
-                android:textColor="@color/white"
-                android:translationX="40dp"
-                android:translationY="40dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="34dp"
-                tools:layout_editor_absoluteY="351dp" />
-
-            <Button
-                android:id="@+id/button2"
+            <ScrollView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:text="PARTECIPA"
-                android:textColor="@color/black"
-                android:translationX="150dp"
-                android:translationY="50dp"
-                tools:ignore="MissingConstraints" />
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp">
 
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="350dp"
+                    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gli alligatori sono rettili appartenenti al genere Alligator, della famiglia Alligatoridae. Le uniche due specie viventi sono l'alligatore del Mississippi e l'alligatore cinese. Il genere contiene anche diverse specie estinte conosciute da resti fossili. Gli alligatori apparvero per la prima volta circa 37 milioni di anni fa"
+                        android:layout_marginTop="18dp"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SOMMARIO"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="REGNO        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CLASSE        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ORDINE        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FAMIGLIA        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GENERE        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SPECIE        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NOME COMUNE        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SEGNALAZIONI"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mario Rossi        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mario Rossi        Animale"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="15dp"
+                android:src="@drawable/ic_data"/>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="125dp"
+                android:src="@drawable/ic_home"/>
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="250dp"
+                android:src="@drawable/ic_utente"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

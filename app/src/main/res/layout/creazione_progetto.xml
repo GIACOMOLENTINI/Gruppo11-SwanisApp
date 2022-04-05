@@ -1,197 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".CompilaClass">
+    android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/primaparte"
-        android:layout_width="410dp"
-        android:layout_height="255dp"
-        android:foreground="#041339"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background">
 
-    <View
-        android:id="@+id/secondaparte"
-        android:layout_width="411dp"
-        android:layout_height="533dp"
-        android:background="@drawable/layout_bg"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="198dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <View
-        android:layout_width="412dp"
-        android:layout_height="104dp"
-        android:layout_marginTop="648dp"
-        android:background="#041339"
-        android:rotationX="52"
-        app:layout_constraintTop_toTopOf="@+id/primaparte"
-        tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="NUOVO PROGETTO"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:textSize="30dp"/>
 
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        tools:ignore="MissingConstraints"
-        android:background="#041339"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_menu" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:translationX="40dp"
+                android:background="@drawable/francesco" />
 
-    <ImageButton
-        android:id="@+id/imageButton21"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="676dp"
-        tools:src="@drawable/ic_back" />
+        </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton22"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#041339"
-        android:src="@drawable/ic_home"
-        android:tint="@color/material_on_primary_emphasis_medium"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="676dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="236dp"
-        android:layout_height="74dp"
-        android:text="CREAZIONE PROGETTO"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="67dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="MICHELE"
+                android:textSize="16dp"
+                android:translationX="320dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="60dp"
-        android:layout_height="65dp"
-        android:background="@drawable/foto_utente"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="34dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:background="@drawable/layout_bgcerca"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Michele"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="113dp"
-        tools:ignore="MissingConstraints" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center" />
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:translationX="250dp"
+                android:translationY="-25dp"/>
+            <EditText
+                android:id="@+id/editTextTextPersonName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Titolo"
+                android:layout_gravity="center"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        app:srcCompat="@android:drawable/ic_menu_gallery"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="180dp"
-        tools:ignore="MissingConstraints" />
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Posizione" />
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Data inizio"/>
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Data fine"/>
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Descrizione"/>
 
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="205dp"
-        tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:background="@drawable/layout_bgcerca"
+                android:text="CREA PROGETTO"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:translationX="100dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="43dp"
-        android:layout_height="42dp"
-        app:srcCompat="@drawable/abc_vector_test"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="9dp"
-        tools:ignore="MissingConstraints" />
+        </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Data inizio"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="414dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Posizione"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="358dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Descrizione"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="528dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Data fine"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="471dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Titolo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="300dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="Crea"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="587dp"
-        tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="15dp"
+                android:src="@drawable/ic_data"/>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="125dp"
+                android:src="@drawable/ic_home"/>
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="250dp"
+                android:src="@drawable/ic_utente"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

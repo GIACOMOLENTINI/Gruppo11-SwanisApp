@@ -73,7 +73,7 @@
                 android:textSize="20dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Posizione"
+                android:hint="Posizione"
                 android:layout_gravity="center"/>
 
             <EditText
@@ -85,7 +85,7 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Data"/>
+                android:hint="Data"/>
             <EditText
                 android:id="@+id/editTextTextPersonName3"
                 android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Note"/>
+                android:hint="Note"/>
             <EditText
                 android:id="@+id/editTextTextPersonName5"
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Appartenenza"/>
+                android:hint="Appartenenza"/>
             <EditText
                 android:id="@+id/editTextTextPersonName6"
                 android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Specie"/>
+                android:hint="Specie"/>
 
             <Button
                 android:id="@+id/button"
