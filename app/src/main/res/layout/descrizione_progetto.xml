@@ -15,9 +15,9 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="180dp"
+                android:layout_width="260dp"
                 android:layout_height="180dp"
-                android:translationX="100dp"
+                android:translationX="70dp"
                 android:background="@drawable/alligatmissisi"/>
 
         </LinearLayout>
@@ -28,23 +28,22 @@
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="280dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ALLIGATORE"
+                android:text="ALLA SCOPERTA DELLA PERNICE BIANCA"
                 android:textColor="@color/white"
-                android:textSize="30dp"
-                android:translationX="110dp"/>
+                android:textSize="20dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="430dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/layout_bgcerca">
 
             <ScrollView
                 android:layout_width="wrap_content"
-                android:layout_height="400dp"
+                android:layout_height="420dp"
                 android:layout_marginTop="10dp">
 
                 <LinearLayout
@@ -53,17 +52,24 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DESCRIZIONE"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Gli alligatori sono rettili appartenenti al genere Alligator, della famiglia Alligatoridae. Le uniche due specie viventi sono l'alligatore del Mississippi e l'alligatore cinese. Il genere contiene anche diverse specie estinte conosciute da resti fossili. Gli alligatori apparvero per la prima volta circa 37 milioni di anni fa"
-                        android:layout_marginTop="18dp"
+                        android:layout_marginTop="10dp"
                         android:textColor="@color/black"
                         android:textSize="14dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="SOMMARIO"
+                        android:text="ORGANIZZATORE"
                         android:layout_marginTop="10dp"
                         android:textColor="@color/black"/>
 
@@ -79,109 +85,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="REGNO        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="CLASSE        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="ORDINE        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="FAMIGLIA        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="GENERE        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="SPECIE        Animale"
-                            android:layout_marginLeft="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="NOME COMUNE        Animale"
+                            android:text="Lorem ipsum S.R.L."
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -189,7 +93,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="SEGNALAZIONI"
+                        android:text="DATA INIZIO PROGETTO"
                         android:layout_marginTop="10dp"
                         android:textColor="@color/black"/>
 
@@ -200,15 +104,22 @@
                         android:layout_marginTop="10dp">
 
                         <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"/>
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mario Rossi        Animale"
+                            android:text="28/10/2022"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DATA FINE PROGETTO"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -217,15 +128,47 @@
                         android:layout_marginTop="10dp">
 
                         <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"/>
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mario Rossi        Animale"
+                            android:text="20/12/2022"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LUOGO"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Locanda degli alpinisti"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="PARTECIPA"/>
 
                 </LinearLayout>
             </ScrollView>
@@ -235,7 +178,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="15dp">
+            android:paddingTop="5dp">
 
             <ImageButton
                 android:id="@+id/imageButton20"
