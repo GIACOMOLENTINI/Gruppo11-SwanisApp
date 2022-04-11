@@ -25,6 +25,8 @@ public class CompilaClass extends AppCompatActivity {
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Toast.makeText(getApplicationContext(), "INSERIMENTO AVVENUTO!!!" , Toast.LENGTH_LONG).show();
+                        Intent openPage1 = new Intent(CompilaClass.this,MainActivity.class);
+                        startActivity(openPage1);
                     };
                 });
         button4.setOnClickListener(

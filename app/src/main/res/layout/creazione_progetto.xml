@@ -30,7 +30,7 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:translationX="40dp"
-                android:background="@drawable/francesco" />
+                android:background="@drawable/flavia" />
 
         </LinearLayout>
 
@@ -43,9 +43,9 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="MICHELE"
+                android:text="FLAVIA"
                 android:textSize="16dp"
-                android:translationX="320dp"
+                android:translationX="330dp"
                 android:textColor="@color/white" />
         </LinearLayout>
 

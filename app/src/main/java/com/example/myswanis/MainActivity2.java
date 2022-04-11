@@ -45,7 +45,7 @@ public class MainActivity2 extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(MainActivity2.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(MainActivity2.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
