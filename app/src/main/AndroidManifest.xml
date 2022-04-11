@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MySwanis">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+            <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+            </activity>
         <activity android:name=".SpecificyClass2"></activity>
         <activity android:name=".SpecificyClass"></activity>
         <activity android:name=".CompilaClass"></activity>
