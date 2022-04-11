@@ -24,6 +24,9 @@
         <activity android:name=".ProjectActivity"></activity>
         <activity android:name=".DescrAnimal"></activity>
         <activity android:name=".Gestion"></activity>
+        <activity android:name=".ProjectClass"></activity>
+        <activity android:name=".CreazioneProgetto"></activity>
+        <activity android:name=".ProjectActivityManage"></activity>
     </application>
 
 </manifest>

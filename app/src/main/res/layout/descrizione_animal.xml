@@ -75,11 +75,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/regno"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="REGNO        Animale"
+                            android:text="REGNO        Animalia"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -92,11 +93,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/classe"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="CLASSE        Animale"
+                            android:text="CLASSE        Reptilia"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -109,11 +111,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/ordine"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ORDINE        Animale"
+                            android:text="ORDINE        Squamata"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -126,11 +129,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/famiglia"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="FAMIGLIA        Animale"
+                            android:text="FAMIGLIA        Alligatori"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -143,11 +147,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/genere"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="GENERE        Animale"
+                            android:text="GENERE        Alligatore"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -160,11 +165,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/specie"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="SPECIE        Animale"
+                            android:text="SPECIE        Alligatore"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -177,11 +183,12 @@
 
                         <ImageView
                             android:layout_width="20dp"
-                            android:layout_height="20dp"/>
+                            android:layout_height="20dp"
+                            android:background="@drawable/nome"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NOME COMUNE        Animale"
+                            android:text="NOME COMUNE        Alligatore"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -201,11 +208,12 @@
 
                         <ImageView
                             android:layout_width="50dp"
-                            android:layout_height="50dp"/>
+                            android:layout_height="50dp"
+                            android:background="@drawable/alligatmissisi"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mario Rossi        Animale"
+                            android:text="Mario Rossi        Alligatore del mississipi"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -218,11 +226,12 @@
 
                         <ImageView
                             android:layout_width="50dp"
-                            android:layout_height="50dp"/>
+                            android:layout_height="50dp"
+                            android:background="@drawable/alligatmissisi"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mario Rossi        Animale"
+                            android:text="Franca Rosati        Alligatore"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>

@@ -114,7 +114,7 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/geco"/>
+                        android:background="@drawable/alligatmissisi"/>
 
                     <TextView
                         android:layout_width="230dp"
