@@ -43,7 +43,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Sono una classe di vertebrati caratterizzata dall'allattamento della prole. Conta 5 500 specie attualmente viventi, variabili in forma e dimensioni: dai pochi centimetri e due grammi di peso agli oltre 30 metri e 150 tonnellate.I mammiferi colonizzano ogni ambiente:sono riusciti a colonizzare con successo l'ambiente acquatico, mentre altri hanno sviluppato la capacità di volare"
+                android:text="Classe di vertebrati distinti dall'allattamento. Conta 5 500 specie attualmente viventi: dai pochi centimetri e due grammi di peso agli oltre 30 metri e 150 tonnellate.I mammiferi colonizzano ogni ambiente:sono riusciti nell'ambiente acquatico, mentre altri hanno sviluppato la capacità di volare"
                 android:textColor="@color/white"
                 android:textSize="15dp"/>
 
@@ -152,8 +152,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingTop="10dp">
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/imageButton20"
