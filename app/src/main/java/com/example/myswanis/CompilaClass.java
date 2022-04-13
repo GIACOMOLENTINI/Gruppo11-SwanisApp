@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class CompilaClass extends AppCompatActivity {
@@ -19,7 +24,6 @@ public class CompilaClass extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-
 
         button3.setOnClickListener(
                 new Button.OnClickListener() {

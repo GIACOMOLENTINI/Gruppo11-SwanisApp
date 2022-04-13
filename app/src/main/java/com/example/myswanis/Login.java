@@ -31,32 +31,17 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 if(username.getText().toString().equals("Flavia") && password.getText().toString().equals("flavia")){
                     //correct
-                    Toast.makeText(Login.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this,"LOGIN SUCCESSFUL!",Toast.LENGTH_LONG).show();
                     Intent openPage1 = new Intent(Login.this,MainActivity2.class);
                     startActivity(openPage1);
-                }else
-                    //incorrect
-                    Toast.makeText(Login.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
-            }
-
-
-
-        });
-        loginbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(username.getText().toString().equals("Francesco") && password.getText().toString().equals("francesco")){
+                } else if(username.getText().toString().equals("Francesco") && password.getText().toString().equals("francesco")) {
                     //correct
-                    Toast.makeText(Login.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
-                    Intent openPage1 = new Intent(Login.this,MainActivity.class);
-                    startActivity(openPage1);
-                }else
-                    //incorrect
-                    Toast.makeText(Login.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this, "LOGIN SUCCESSFUL!", Toast.LENGTH_LONG).show();
+                    Intent openPage2 = new Intent(Login.this, MainActivity.class);
+                    startActivity(openPage2);
+                } else
+                    Toast.makeText(Login.this, "LOGIN FAILED!! TRY AGAIN", Toast.LENGTH_LONG).show();
             }
-
-
-
         });
     }
 }
