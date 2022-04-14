@@ -85,18 +85,21 @@
                         android:layout_marginLeft="10dp" />
 
                     <ImageButton
+                        android:id="@+id/confirm_button"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="85dp"
                         android:translationX="-100dp"
                         android:background="@drawable/done"/>
                     <ImageButton
+                        android:id="@+id/mod_button"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="85dp"
                         android:translationX="-100dp"
                         android:background="@drawable/modifica"/>
                     <ImageButton
+                        android:id="@+id/delete_button"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="85dp"
