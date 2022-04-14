@@ -28,5 +28,6 @@
         <activity android:name=".CreazioneProgetto"></activity>
         <activity android:name=".ProjectActivityManage"></activity>
         <activity android:name=".LuogoSegn"></activity>
+        <activity android:name=".ModSegnal"></activity>
     </application>
 </manifest>
