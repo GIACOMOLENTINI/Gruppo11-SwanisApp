@@ -19,7 +19,7 @@ public class ModSegnal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.compila_layout);
+        setContentView(R.layout.mod_segnal);
         Button button3 = (Button)findViewById(R.id.button);
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class Gestion extends AppCompatActivity {
@@ -14,6 +15,7 @@ public class Gestion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gestione_segnal);
+        LinearLayout layout;
 
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
@@ -21,6 +23,7 @@ public class Gestion extends AppCompatActivity {
         ImageButton button7 = (ImageButton)findViewById(R.id.confirm_button);
         ImageButton button8 = (ImageButton)findViewById(R.id.mod_button);
         ImageButton button9 = (ImageButton)findViewById(R.id.delete_button);
+        layout = findViewById(R.id.layout);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -61,6 +64,7 @@ public class Gestion extends AppCompatActivity {
         button9.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
+                        layout.removeView(v);
                         Toast.makeText(getApplicationContext(), "SEGNALAZIONE ELIMINATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
                         Intent openPage2 = new Intent(Gestion.this,Gestion.class);
                         startActivity(openPage2);
