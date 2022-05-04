@@ -21,6 +21,7 @@ public class CompilaClass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.compila_layout);
         Button button3 = (Button)findViewById(R.id.button);
+        Button btn2 = (Button) findViewById(R.id.button2);
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
@@ -53,6 +54,15 @@ public class CompilaClass extends AppCompatActivity {
                         Intent openPage2 = new Intent(CompilaClass.this,MainActivity.class);
                         startActivity(openPage2);
                     };
+                });
+
+        btn2.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view) {
+                        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                        startActivity(cameraIntent);
+                    }
                 });
     }
 }

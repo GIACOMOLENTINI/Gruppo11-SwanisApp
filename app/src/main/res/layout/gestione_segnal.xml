@@ -99,13 +99,14 @@
                         android:layout_marginTop="85dp"
                         android:translationX="-100dp"
                         android:background="@drawable/modifica"/>
+
                     <ImageButton
                         android:id="@+id/delete_button"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="85dp"
-                        android:translationX="-100dp"
-                        android:background="@drawable/cestino"/>
+                        android:background="@drawable/cestino"
+                        android:translationX="-100dp" />
 
                 </LinearLayout>
 
