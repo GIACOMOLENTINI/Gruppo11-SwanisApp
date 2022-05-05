@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
+        Button btnSrc = (Button)findViewById(R.id.btnsource);
+        EditText src = (EditText) findViewById(R.id.editTextTextPersonName);
 
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -61,6 +65,16 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(MainActivity.this,MainActivity.class);
                         startActivity(openPage2);
+                    };
+                });
+        btnSrc.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        if(src.getText().toString().equals("alligatore")) {
+                            Intent openPage3 = new Intent(MainActivity.this,DescrAnimal.class);
+                            startActivity(openPage3);
+                        } else
+                            Toast.makeText(MainActivity.this,"NO RESULT!",Toast.LENGTH_LONG).show();
                     };
                 });
     }

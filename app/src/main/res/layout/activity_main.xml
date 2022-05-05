@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -69,16 +70,19 @@
                 android:ems="10"
                 android:textSize="20dp"
                 android:inputType="textPersonName"
-                android:text="RICERCA"
+                android:hint="RICERCA"
                 android:gravity="center"
                 android:layout_marginHorizontal="50dp"
                 android:layout_marginTop="10dp"/>
 
-            <SearchView
+            <Button
+                android:id="@+id/btnsource"
                 android:layout_width="59dp"
                 android:layout_height="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/layout_bgcerca"
-                android:layout_marginTop="10dp"/>
+                app:backgroundTint="#a1c4fd"
+                />
 
         </LinearLayout>
             <LinearLayout
@@ -137,11 +141,12 @@
                 android:id="@+id/button"
                 android:layout_width="235dp"
                 android:layout_height="60dp"
+                android:background="@drawable/layout_bgcerca"
                 android:gravity="center"
                 android:text="INSERISCI SEGNALAZIONE"
                 android:textSize="18dp"
                 android:translationX="100dp"
-                android:background="@drawable/layout_bgcerca" />
+                app:backgroundTint="#a1c4fd" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

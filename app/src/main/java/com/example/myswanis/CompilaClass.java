@@ -60,8 +60,12 @@ public class CompilaClass extends AppCompatActivity {
                 new View.OnClickListener(){
                     @Override
                     public void onClick(View view) {
-                        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                        startActivity(cameraIntent);
+                        try {
+                            Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                            startActivity(cameraIntent);
+                        }catch (Exception e) {
+                            e.printStackTrace();
+                        }
                     }
                 });
     }

@@ -31,5 +31,5 @@
         <activity android:name=".LuogoSegn"></activity>
         <activity android:name=".ModSegnal"></activity>
     </application>
-    <uses-permission android:name="android.permission.CAMERA"/>
+
 </manifest>
