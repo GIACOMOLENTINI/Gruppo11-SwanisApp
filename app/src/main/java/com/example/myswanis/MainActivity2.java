@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -20,18 +23,20 @@ public class MainActivity2 extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
+        ImageButton btnSrc = (ImageButton)findViewById(R.id.btnsource);
+        EditText src = (EditText) findViewById(R.id.editTextTextPersonName);
 
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(MainActivity2.this,SpecificyClass2.class);
+                        Intent openPage1 = new Intent(MainActivity2.this,SpecificyClass2FL.class);
                         startActivity(openPage1);
                     };
                 });
         button2.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(MainActivity2.this,SpecificyClass.class);
+                        Intent openPage2 = new Intent(MainActivity2.this,SpecificyClassFL.class);
                         startActivity(openPage2);
                     };
                 });
@@ -61,6 +66,16 @@ public class MainActivity2 extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(MainActivity2.this,Gestion.class);
                         startActivity(openPage2);
+                    };
+                });
+        btnSrc.setOnClickListener(
+                new ImageButton.OnClickListener() {
+                    public void onClick(View v) {
+                        if(src.getText().toString().equals("alligatore")) {
+                            Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal.class);
+                            startActivity(openPage3);
+                        } else
+                            Toast.makeText(MainActivity2.this,"NO RESULT!",Toast.LENGTH_LONG).show();
                     };
                 });
     }

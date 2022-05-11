@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        Button btnSrc = (Button)findViewById(R.id.btnsource);
+        ImageButton btnSrc = (ImageButton)findViewById(R.id.btnsource);
         EditText src = (EditText) findViewById(R.id.editTextTextPersonName);
 
         button1.setOnClickListener(
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     };
                 });
         btnSrc.setOnClickListener(
-                new Button.OnClickListener() {
+                new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         if(src.getText().toString().equals("alligatore")) {
                             Intent openPage3 = new Intent(MainActivity.this,DescrAnimal.class);

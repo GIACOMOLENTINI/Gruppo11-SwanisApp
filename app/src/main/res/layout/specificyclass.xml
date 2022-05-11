@@ -30,7 +30,6 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="160dp"
-                android:background="@drawable/francesco"
                 />
 
         </LinearLayout>
@@ -51,7 +50,6 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="FRANCESCO"
                 android:textSize="16dp"
                 android:translationX="30dp"
                 android:textColor="@color/white" />

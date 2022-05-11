@@ -9,47 +9,47 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class SpecificyClass2 extends AppCompatActivity {
+public class SpecificyClassFL extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.specificyclass2);
+        setContentView(R.layout.specificyclass);
         ImageButton button1 = (ImageButton)findViewById(R.id.btn);
-        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
+        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
         ImageView utente = (ImageView)findViewById(R.id.imageView);
-        utente.setImageResource(R.drawable.francesco);
+        utente.setImageResource(R.drawable.flavia);
         TextView person = (TextView)findViewById(R.id.textView4);
-        person.setText("FRANCESCO");
+        person.setText("FLAVIA");
 
 
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(SpecificyClass2.this,DescrAnimal.class);
+                        Intent openPage1 = new Intent(SpecificyClassFL.this,DescrAnimal.class);
                         startActivity(openPage1);
                     };
                 });
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(SpecificyClass2.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(SpecificyClassFL.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
         button5.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(SpecificyClass2.this,MainActivity.class);
+                        Intent openPage2 = new Intent(SpecificyClassFL.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(SpecificyClass2.this,MainActivity.class);
+                        Intent openPage2 = new Intent(SpecificyClassFL.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });

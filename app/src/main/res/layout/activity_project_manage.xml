@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -97,18 +98,22 @@
                             android:id="@+id/btt1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="DESCRIZIONE"
                             android:textSize="15dp"
-                            android:layout_marginTop="20dp" />
+                            app:backgroundTint="#041339" />
 
                         <Button
                             android:id="@+id/btt2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="-130dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="PARTECIPA"
                             android:textSize="15dp"
-                            android:layout_marginTop="60dp"
-                            android:layout_marginLeft="-140dp"/>
+                            app:backgroundTint="#041339" />
 
                     </LinearLayout>
 
@@ -136,18 +141,22 @@
                             android:id="@+id/btt3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="DESCRIZIONE"
                             android:textSize="15dp"
-                            android:layout_marginTop="20dp" />
+                            app:backgroundTint="#041339" />
 
                         <Button
                             android:id="@+id/btt4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="-130dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="PARTECIPA"
                             android:textSize="15dp"
-                            android:layout_marginTop="60dp"
-                            android:layout_marginLeft="-140dp"/>
+                            app:backgroundTint="#041339" />
 
                     </LinearLayout>
 
@@ -175,18 +184,22 @@
                             android:id="@+id/btt5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="DESCRIZIONE"
                             android:textSize="15dp"
-                            android:layout_marginTop="20dp" />
+                            app:backgroundTint="#041339" />
 
                         <Button
                             android:id="@+id/btt6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="-130dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="PARTECIPA"
                             android:textSize="15dp"
-                            android:layout_marginTop="60dp"
-                            android:layout_marginLeft="-140dp"/>
+                            app:backgroundTint="#041339" />
 
                     </LinearLayout>
 
@@ -214,18 +227,22 @@
                             android:id="@+id/btt7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="DESCRIZIONE"
                             android:textSize="15dp"
-                            android:layout_marginTop="20dp" />
+                            app:backgroundTint="#041339" />
 
                         <Button
                             android:id="@+id/btt8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="-130dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="PARTECIPA"
                             android:textSize="15dp"
-                            android:layout_marginTop="60dp"
-                            android:layout_marginLeft="-140dp"/>
+                            app:backgroundTint="#041339" />
 
                     </LinearLayout>
 
@@ -253,18 +270,22 @@
                             android:id="@+id/btt9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="DESCRIZIONE"
                             android:textSize="15dp"
-                            android:layout_marginTop="20dp" />
+                            app:backgroundTint="#041339" />
 
                         <Button
                             android:id="@+id/btt10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="-130dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/layout_bgcerca"
                             android:text="PARTECIPA"
                             android:textSize="15dp"
-                            android:layout_marginTop="60dp"
-                            android:layout_marginLeft="-140dp"/>
+                            app:backgroundTint="#041339" />
 
                     </LinearLayout>
 

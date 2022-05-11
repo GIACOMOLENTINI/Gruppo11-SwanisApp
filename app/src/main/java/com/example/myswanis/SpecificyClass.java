@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class SpecificyClass extends AppCompatActivity {
 
@@ -17,6 +19,10 @@ public class SpecificyClass extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
+        ImageView utente = (ImageView)findViewById(R.id.imageView);
+        utente.setImageResource(R.drawable.francesco);
+        TextView person = (TextView)findViewById(R.id.textView4);
+        person.setText("FRANCESCO");
 
 
         button1.setOnClickListener(

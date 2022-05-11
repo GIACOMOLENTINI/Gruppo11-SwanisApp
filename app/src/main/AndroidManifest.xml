@@ -19,7 +19,9 @@
             </intent-filter>
             </activity>
         <activity android:name=".SpecificyClass2"></activity>
+        <activity android:name=".SpecificyClass2FL"></activity>
         <activity android:name=".SpecificyClass"></activity>
+        <activity android:name=".SpecificyClassFL"></activity>
         <activity android:name=".CompilaClass"></activity>
         <activity android:name=".MainActivity2"></activity>
         <activity android:name=".ProjectActivity"></activity>
