@@ -43,7 +43,7 @@ public class MainActivity2 extends AppCompatActivity {
         button3.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage3 = new Intent(MainActivity2.this,CompilaClass.class);
+                        Intent openPage3 = new Intent(MainActivity2.this,CompilaClassFL.class);
                         startActivity(openPage3);
                     };
                 });

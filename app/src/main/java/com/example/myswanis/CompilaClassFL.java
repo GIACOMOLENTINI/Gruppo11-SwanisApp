@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CompilaClass extends AppCompatActivity {
+public class CompilaClassFL extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,36 +27,36 @@ public class CompilaClass extends AppCompatActivity {
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
         ImageButton button7 = (ImageButton)findViewById(R.id.imageButton8);
         ImageView utente = (ImageView)findViewById(R.id.imageView);
-        utente.setImageResource(R.drawable.francesco);
+        utente.setImageResource(R.drawable.flavia);
         TextView person = (TextView)findViewById(R.id.textView4);
-        person.setText("FRANCESCO");
+        person.setText("FLAVIA");
 
         button3.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Toast.makeText(getApplicationContext(), "INSERIMENTO AVVENUTO!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage1 = new Intent(CompilaClass.this,MainActivity.class);
+                        Intent openPage1 = new Intent(CompilaClassFL.this,MainActivity2.class);
                         startActivity(openPage1);
                     };
                 });
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CompilaClass.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(CompilaClassFL.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
         button5.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CompilaClass.this,MainActivity.class);
+                        Intent openPage2 = new Intent(CompilaClassFL.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CompilaClass.this,MainActivity.class);
+                        Intent openPage2 = new Intent(CompilaClassFL.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });

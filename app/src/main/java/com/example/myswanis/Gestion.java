@@ -28,7 +28,7 @@ public class Gestion extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(Gestion.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(Gestion.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
