@@ -60,13 +60,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(openPage2);
                     };
                 });
-        /*button6.setOnClickListener(
-                new ImageButton.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent openPage2 = new Intent(MainActivity.this,MainActivity.class);
-                        startActivity(openPage2);
-                    };
-                });*/
         btnSrc.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {

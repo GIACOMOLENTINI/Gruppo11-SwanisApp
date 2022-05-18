@@ -49,7 +49,7 @@
                     android:orientation="vertical"
                     android:layout_marginLeft="10dp">
 
-                    <MapView
+                    <SupportMapFragment
                         android:id="@+id/myMapview"
                         android:layout_width="330dp"
                         android:layout_height="330dp"
