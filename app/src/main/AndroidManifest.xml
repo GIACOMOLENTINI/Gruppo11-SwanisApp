@@ -33,6 +33,10 @@
         <activity android:name=".ProjectActivityManage"></activity>
         <activity android:name=".LuogoSegn"></activity>
         <activity android:name=".ModSegnal"></activity>
+        <activity android:name=".DescrProfile"></activity>
+        <activity android:name=".DescrProfileFL"></activity>
+        <activity android:name=".ConfirmSegn"></activity>
+        <activity android:name=".DeleteSegn"></activity>
     </application>
 
 </manifest>

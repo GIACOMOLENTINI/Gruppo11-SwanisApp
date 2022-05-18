@@ -7,9 +7,20 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/activity_project.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_project_manage.xml" value="0.10597826086956522" />
         <entry key="app/src/main/res/layout/compila_layout.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/descrizione_animal.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/descrizione_flavia.xml" value="0.6258646424032129" />
+        <entry key="app/src/main/res/layout/descrizione_profilo.xml" value="0.29374238972627353" />
+        <entry key="app/src/main/res/layout/descrizione_profiloFL.xml" value="0.10597826086956522" />
         <entry key="app/src/main/res/layout/gestione_segnal.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/luogo_segnal.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/mod_segnal.xml" value="0.10597826086956522" />
+        <entry key="app/src/main/res/layout/segnal_confirm.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/segnal_delete.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/specificyclass.xml" value="0.11956521739130435" />
+        <entry key="app/src/main/res/layout/specificyclass2.xml" value="0.11956521739130435" />
       </map>
     </option>
   </component>

@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(openPage2);
                     };
                 });
-        button6.setOnClickListener(
+        /*button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(MainActivity.this,MainActivity.class);
                         startActivity(openPage2);
                     };
-                });
+                });*/
         btnSrc.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
@@ -76,6 +76,14 @@ public class MainActivity extends AppCompatActivity {
                         } else
                             Toast.makeText(MainActivity.this,"NO RESULT!",Toast.LENGTH_LONG).show();
                     };
+                });
+
+        button6.setOnClickListener(
+                new ImageButton.OnClickListener() {
+                    public void onClick(View v) {
+                            Intent openProfPage = new Intent(MainActivity.this,DescrProfile.class);
+                            startActivity(openProfPage);
+                    }
                 });
     }
 }
