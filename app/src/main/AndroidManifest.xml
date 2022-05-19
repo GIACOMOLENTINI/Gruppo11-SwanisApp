@@ -37,6 +37,8 @@
         <activity android:name=".DescrProfileFL"></activity>
         <activity android:name=".ConfirmSegn"></activity>
         <activity android:name=".DeleteSegn"></activity>
+        <activity android:name=".ResetPw"></activity>
+        <activity android:name=".CompilaReg"></activity>
     </application>
 
 </manifest>
