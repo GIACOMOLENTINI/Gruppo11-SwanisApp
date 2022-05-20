@@ -73,13 +73,13 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/coyote"/>
+                        android:background="@drawable/alligatmissisi"/>
 
                     <TextView
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/text1"
-                        android:text="Alla scoperta della pernice bianca"
+                        android:text="Immersi nelle profondità del Mississipi"
                         android:textSize="15dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp" />
@@ -116,7 +116,7 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/geco"/>
+                        android:background="@drawable/pernice"/>
 
                     <TextView
                         android:layout_width="130dp"
