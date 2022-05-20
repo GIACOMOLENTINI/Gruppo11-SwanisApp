@@ -102,29 +102,115 @@
                 android:layout_height="350dp"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:id="@+id/btn"
-                    android:layout_width="200dp"
-                    android:layout_height="250dp"
-                    android:layout_marginTop="60dp"
-                    android:background="@drawable/mammiferi"
-                    android:translationX="15dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/btn"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/mammiferi"
+                        android:translationX="15dp" />
 
-                <ImageButton
-                    android:id="@+id/imageView6"
-                    android:layout_width="200dp"
-                    android:layout_height="250dp"
-                    android:layout_marginTop="60dp"
-                    android:background="@drawable/anfibi"
-                    android:translationX="30dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MAMMIFERI"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"/>
 
-                <ImageButton
-                    android:id="@+id/btn1"
-                    android:layout_width="200dp"
-                    android:layout_height="250dp"
-                    android:layout_marginTop="60dp"
-                    android:background="@drawable/pesci"
-                    android:translationX="45dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/imageView6"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/rettili"
+                        android:translationX="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RETTILI"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/btn1"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/pesci"
+                        android:translationX="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PESCI"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/imageView7"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/anfibi"
+                        android:translationX="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ANFIBI"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/imageView8"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/uccelli"
+                        android:translationX="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UCCELLI"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
 
             </LinearLayout>
         </HorizontalScrollView>
