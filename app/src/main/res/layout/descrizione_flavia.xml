@@ -31,7 +31,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:text="FLAVIA"
+                android:text="    FLAVIA"
                 android:textColor="@color/white"
                 android:textSize="30dp"
                 android:translationX="110dp" />
@@ -61,6 +61,17 @@
                         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ultrices ante. Sed consequat purus sed justo porttitor, et elementum diam bibendum. Curabitur vulputate libero ac quam scelerisque mattis. Sed pharetra ex ut nunc vehicula, vel cursus diam blandit. Mauris erat risus, auctor et sapien sed, pellentesque volutpat massa. Aliquam ex eros, dignissim vel tellus ac, vehicula blandit dui. Integer id eros venenatis, aliquet risus vel, ultrices augue.  Sed vitae nisi imperdiet, sagittis felis in, tristique metus. Aliquam posuere nunc dolor, quis venenatis eros ultricies ac. Ut a varius urna, sit amet posuere odio. Fusce volutpat varius nibh ut accumsan. Maecenas sed dictum sem, non cursus urna. Cras congue, libero in rutrum finibus, arcu nisl porta dui, bibendum ornare ligula augue id urna. Duis auctor elit neque, at pellentesque lorem vestibulum eget. Sed suscipit pellentesque nibh. Nullam non odio blandit, accumsan dui euismod, tincidunt metus. Etiam condimentum enim mauris, eget laoreet ex porttitor quis. Maecenas eget tristique sapien, sed semper libero. Nunc eu viverra quam, a facilisis est. Donec commodo mollis nunc, ac vulputate magna rutrum vitae. Nunc eu erat suscipit, vulputate dolor et, eleifend dolor. Proin sollicitudin scelerisque libero."
                         android:textColor="@color/black"
                         android:textSize="14dp" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="235dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/layout_bgcerca"
+                        android:gravity="center"
+                        android:text="LOGOUT"
+                        android:textSize="18dp"
+                        android:translationX="80dp"
+                        android:layout_marginTop="20dp"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
