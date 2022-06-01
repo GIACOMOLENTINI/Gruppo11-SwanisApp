@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SpecificyClass extends AppCompatActivity {
 
@@ -23,6 +25,8 @@ public class SpecificyClass extends AppCompatActivity {
         utente.setImageResource(R.drawable.francesco);
         TextView person = (TextView)findViewById(R.id.textView4);
         person.setText("FRANCESCO");
+        ImageButton btnSrc = (ImageButton)findViewById(R.id.btnsource);
+        EditText src = (EditText) findViewById(R.id.editTextTextPersonName);
 
 
         button1.setOnClickListener(
@@ -51,6 +55,16 @@ public class SpecificyClass extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(SpecificyClass.this,MainActivity.class);
                         startActivity(openPage2);
+                    };
+                });
+        btnSrc.setOnClickListener(
+                new ImageButton.OnClickListener() {
+                    public void onClick(View v) {
+                        if(src.getText().toString().equals("alligatore")) {
+                            Intent openPage3 = new Intent(SpecificyClass.this,DescrAnimal.class);
+                            startActivity(openPage3);
+                        } else
+                            Toast.makeText(SpecificyClass.this,"NO RESULT!",Toast.LENGTH_LONG).show();
                     };
                 });
     }

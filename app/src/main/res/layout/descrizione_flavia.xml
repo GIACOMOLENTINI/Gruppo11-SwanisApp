@@ -58,9 +58,85 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="18dp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ultrices ante. Sed consequat purus sed justo porttitor, et elementum diam bibendum. Curabitur vulputate libero ac quam scelerisque mattis. Sed pharetra ex ut nunc vehicula, vel cursus diam blandit. Mauris erat risus, auctor et sapien sed, pellentesque volutpat massa. Aliquam ex eros, dignissim vel tellus ac, vehicula blandit dui. Integer id eros venenatis, aliquet risus vel, ultrices augue.  Sed vitae nisi imperdiet, sagittis felis in, tristique metus. Aliquam posuere nunc dolor, quis venenatis eros ultricies ac. Ut a varius urna, sit amet posuere odio. Fusce volutpat varius nibh ut accumsan. Maecenas sed dictum sem, non cursus urna. Cras congue, libero in rutrum finibus, arcu nisl porta dui, bibendum ornare ligula augue id urna. Duis auctor elit neque, at pellentesque lorem vestibulum eget. Sed suscipit pellentesque nibh. Nullam non odio blandit, accumsan dui euismod, tincidunt metus. Etiam condimentum enim mauris, eget laoreet ex porttitor quis. Maecenas eget tristique sapien, sed semper libero. Nunc eu viverra quam, a facilisis est. Donec commodo mollis nunc, ac vulputate magna rutrum vitae. Nunc eu erat suscipit, vulputate dolor et, eleifend dolor. Proin sollicitudin scelerisque libero."
+                        android:text="FLAVIA"
                         android:textColor="@color/black"
                         android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="MARINI"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="flavia7879@gmail.com"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="365-8551 7433"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="20/12/1978"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="LIVELLO UTENTE: AMMINISTRATORE"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"/>
 
                     <Button
                         android:id="@+id/button"
@@ -72,61 +148,6 @@
                         android:textSize="18dp"
                         android:translationX="80dp"
                         android:layout_marginTop="20dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="10dp"/>
-
 
                 </LinearLayout>
             </ScrollView>

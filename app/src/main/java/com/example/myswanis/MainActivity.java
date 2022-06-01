@@ -28,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(MainActivity.this,SpecificyClass2.class);
+                        Intent openPage1 = new Intent(MainActivity.this,SpecificyClass.class);
                         startActivity(openPage1);
                     };
             });
         button2.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(MainActivity.this,SpecificyClass.class);
+                        Intent openPage2 = new Intent(MainActivity.this,SpecificyClass2.class);
                         startActivity(openPage2);
                     };
                 });
