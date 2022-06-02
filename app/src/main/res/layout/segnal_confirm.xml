@@ -71,13 +71,13 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/alligatmissisi"/>
+                        android:background="@drawable/testugpalustre"/>
 
                     <TextView
                         android:layout_width="230dp"
                         android:layout_height="80dp"
                         android:id="@+id/text11"
-                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie:\nAppartenenza:\nLocalizzazione:"
+                        android:text="Segnalazione nr. A10124\nSalvatore Vinci\nSpecie: Emys orbicularis\nAppartenenza: Emididi\nLocalizzazione: Brola, Mantova, Italia"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"
@@ -121,7 +121,7 @@
                         android:layout_width="230dp"
                         android:layout_height="80dp"
                         android:id="@+id/text12"
-                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie:\nAppartenenza:\nLocalizzazione:"
+                        android:text="Segnalazione nr. A10125\nRosaria Di Benedetto\nSpecie: Mammiferi\nAppartenenza: Equidi\nLocalizzazione: Kakuma, Kenya"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"
@@ -163,7 +163,7 @@
                         android:layout_width="230dp"
                         android:layout_height="80dp"
                         android:id="@+id/text13"
-                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie:\nAppartenenza:\nLocalizzazione:"
+                        android:text="Segnalazione nr. A10126\nGiovanna Sesti\nSpecie: Passeracei\nAppartenenza: Pandionidi\nLocalizzazione: Gold Coast, Australia"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"
@@ -205,7 +205,7 @@
                         android:layout_width="230dp"
                         android:layout_height="80dp"
                         android:id="@+id/text14"
-                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie:\nAppartenenza:\nLocalizzazione:"
+                        android:text="Segnalazione nr. A10127\nLuca Toni\nSpecie: Mammiferi\nAppartenenza: Leporidi\nLocalizzazione: Emilia Romagna, BN, Italia"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"

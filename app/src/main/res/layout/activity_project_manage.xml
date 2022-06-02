@@ -175,7 +175,7 @@
                             android:layout_width="130dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/text3"
-                            android:text="Alla scoperta della pernice bianca"
+                            android:text="Il ritrovo nella savana"
                             android:textSize="15dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"/>
@@ -218,7 +218,7 @@
                             android:layout_width="130dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/text4"
-                            android:text="Alla scoperta della pernice bianca"
+                            android:text="Il sogno di volare"
                             android:textSize="15dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"/>
@@ -261,7 +261,7 @@
                             android:layout_width="130dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/text5"
-                            android:text="Alla scoperta della pernice bianca"
+                            android:text="Corri...più veloce della lepre!!"
                             android:textSize="15dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"/>
