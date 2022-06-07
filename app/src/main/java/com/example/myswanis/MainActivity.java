@@ -64,7 +64,10 @@ public class MainActivity extends AppCompatActivity {
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         if(src.getText().toString().equals("alligatore")) {
-                            Intent openPage3 = new Intent(MainActivity.this,DescrAnimal.class);
+                            Intent openPage3 = new Intent(MainActivity.this, DescrAnimal.class);
+                            startActivity(openPage3);
+                        } else if(src.getText().toString().equals("lucertola")) {
+                            Intent openPage3 = new Intent(MainActivity.this,DescrAnimal2.class);
                             startActivity(openPage3);
                         } else
                             Toast.makeText(MainActivity.this,"NO RESULT!",Toast.LENGTH_LONG).show();
