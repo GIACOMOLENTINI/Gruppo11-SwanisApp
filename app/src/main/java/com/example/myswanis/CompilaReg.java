@@ -28,21 +28,29 @@ public class CompilaReg extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.compila_name);
         Button button3 = (Button)findViewById(R.id.button);
-        TextView pw =(TextView) findViewById(R.id.editTextTextPersonName7);
-        TextView pw2 =(TextView) findViewById(R.id.editTextTextPersonName8);
+        TextView pw = (TextView) findViewById(R.id.editTextTextPersonName7);
+        TextView pw2 = (TextView) findViewById(R.id.editTextTextPersonName8);
+        TextView name = (TextView) findViewById(R.id.editTextTextPersonName1);
+        TextView surname = (TextView) findViewById(R.id.editTextTextPersonName2);
+        TextView  date = (TextView) findViewById(R.id.editTextTextPersonName3);
+        TextView tel = (TextView) findViewById(R.id.editTextTextPersonName5);
+        TextView email = (TextView) findViewById(R.id.editTextTextPersonName6);
+
 
 
         button3.setOnClickListener(
                 new Button.OnClickListener() {
-                    public void onClick(View v) {
-                        if(pw.getText().toString().equals(pw2.getText().toString())){
-                            //correct
-                            Toast.makeText(CompilaReg.this,"SIGN IN SUCCESSFUL!",Toast.LENGTH_LONG).show();
-                        Intent openPage1 = new Intent(CompilaReg.this,Login.class);
-                        startActivity(openPage1);
-                        } else
-                            Toast.makeText(CompilaReg.this, "SIGN IN FAILED!! TRY AGAIN", Toast.LENGTH_LONG).show();
-                    }
+                   public void onClick (View v) {
+                       if (name.getText().toString().isEmpty() && surname.getText().toString().isEmpty() && date.getText().toString().isEmpty() && tel.getText().toString().isEmpty() && email.getText().toString().isEmpty() && pw.getText().toString().isEmpty() && pw2.getText().toString().isEmpty()) {
+                           Toast.makeText(CompilaReg.this, "CAMPI NON INSERITI", Toast.LENGTH_LONG).show();
+                       }else if (pw.getText().toString().equals(pw2.getText().toString())) {
+                           //correct
+                           Toast.makeText(CompilaReg.this, "REGISTRAZIONE AVVENUTA" , Toast.LENGTH_LONG).show();
+                           Intent openPage1 = new Intent(CompilaReg.this, Login.class);
+                           startActivity(openPage1);
+                       } else
+                           Toast.makeText(CompilaReg.this, "LE PASSWORD NON COINCIDONO", Toast.LENGTH_LONG).show();
+                   }
                 });
                 }
     }

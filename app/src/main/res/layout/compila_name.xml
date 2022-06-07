@@ -112,7 +112,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
                 android:ems="10"
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:hint="Password"/>
             <EditText
                 android:id="@+id/editTextTextPersonName8"
@@ -122,7 +122,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
                 android:ems="10"
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:hint="Ripeti password"/>
 
             <Button
