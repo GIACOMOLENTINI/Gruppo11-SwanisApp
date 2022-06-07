@@ -24,8 +24,8 @@ public class ConfirmSegn extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ConfirmSegn.this,ProjectActivityManage.class);
-                        startActivity(openPage2);
+                        Intent openPage1 = new Intent(ConfirmSegn.this,ProjectActivityManage.class);
+                        startActivity(openPage1);
                     };
                 });
         button5.setOnClickListener(
