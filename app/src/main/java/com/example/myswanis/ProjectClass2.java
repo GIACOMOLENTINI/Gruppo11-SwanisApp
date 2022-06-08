@@ -9,52 +9,48 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-
-public class LuogoSegn extends AppCompatActivity implements OnMapReadyCallback{
+public class ProjectClass2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.luogo_segnal);
+        setContentView(R.layout.descrizione_progetto);
 
-        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
+        Button button3 = (Button)findViewById(R.id.btn);
+        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        SupportMapFragment map = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.myMapview);
-        map.getMapAsync(this);
 
+
+        button3.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Toast.makeText(getApplicationContext(), "PARTECIPAZIONE EFFETTUATA!!!" , Toast.LENGTH_LONG).show();
+                        Intent openPage1 = new Intent(ProjectClass2.this,MainActivity2.class);
+                        startActivity(openPage1);
+                    };
+                });
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(LuogoSegn.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(ProjectClass2.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
         button5.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(LuogoSegn.this,MainActivity.class);
+                        Intent openPage2 = new Intent(ProjectClass2.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(LuogoSegn.this,MainActivity.class);
+                        Intent openPage2 = new Intent(ProjectClass2.this,MainActivity2.class);
                         startActivity(openPage2);
                     };
                 });
 
-    }
-    public void onMapReady(GoogleMap googleMap) {
-        LatLng sydney = new LatLng(-33.852, 151.211);
-        googleMap.addMarker(new MarkerOptions()
-                .position(sydney)
-                .title("Sydney"));
     }
 }

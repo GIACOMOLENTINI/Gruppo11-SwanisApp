@@ -27,8 +27,15 @@ public class SpecificyClassFL extends AppCompatActivity {
         person.setText("FLAVIA");
         ImageButton btnSrc = (ImageButton)findViewById(R.id.btnsource);
         EditText src = (EditText) findViewById(R.id.editTextTextPersonName);
+        ImageButton luc = (ImageButton) findViewById(R.id.imageView6);
 
-
+        luc.setOnClickListener(
+                new ImageButton.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent openPage1 = new Intent(SpecificyClassFL.this,DescrAnimal2.class);
+                        startActivity(openPage1);
+                    };
+                });
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {

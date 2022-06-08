@@ -19,6 +19,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.common.api.Response;
+
 public class CompilaClass extends AppCompatActivity {
 
     private static final int PHOTO_REQUEST_CODE = 0;
@@ -81,26 +83,25 @@ public class CompilaClass extends AppCompatActivity {
                         }
                     }
                 });
-        button7.setOnClickListener(
-                new View.OnClickListener(){
-                    @Override
-                    public void onClick(View view) {
-                            Intent selectImage = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                            startActivityForResult(selectImage, 1);
-                        }
-                    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-                        if (requestCode == 1) {
-                            Uri selImg = data.getData();
-                            String[]filePath = {MediaStore.Images.Media.DATA};
-                            Cursor c = getContentResolver().query(selImg, filePath, null, null, null);
-                            c.moveToFirst();
-                            int columnIndex = c.getColumnIndex(filePath[0]);
-                            String picPath = c.getString(columnIndex);
-                            Bitmap pic = (BitmapFactory.decodeFile(picPath));
-                            foto.setImageBitmap(pic);
-                            c.close();
-                        }
-                    }
-                });
+        button7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent selectImage = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(selectImage, 1);
+            }
+            protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+                if (requestCode == 1) {
+                    Uri selImg = data.getData();
+                    String[]filePath = {MediaStore.Images.Media.DATA};
+                    Cursor c = getContentResolver().query(selImg, filePath, null, null, null);
+                    c.moveToFirst();
+                    int columnIndex = c.getColumnIndex(filePath[0]);
+                    String picPath = c.getString(columnIndex);
+                    Bitmap pic = (BitmapFactory.decodeFile(picPath));
+                    foto.setImageBitmap(pic);
+                    c.close();
+                }
+            }
+        });
     }
 }

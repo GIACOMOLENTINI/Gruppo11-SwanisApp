@@ -19,7 +19,6 @@ public class DescrAnimal extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button7 = (ImageButton)findViewById(R.id.segnal);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -39,13 +38,6 @@ public class DescrAnimal extends AppCompatActivity {
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(DescrAnimal.this,MainActivity.class);
-                        startActivity(openPage2);
-                    };
-                });
-        button7.setOnClickListener(
-                new ImageButton.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent openPage2 = new Intent(DescrAnimal.this,LuogoSegn.class);
                         startActivity(openPage2);
                     };
                 });

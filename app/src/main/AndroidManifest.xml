@@ -36,7 +36,6 @@
         <activity android:name=".ProjectClass" />
         <activity android:name=".CreazioneProgetto" />
         <activity android:name=".ProjectActivityManage" />
-        <activity android:name=".LuogoSegn" />
         <activity android:name=".ModSegnal" />
         <activity android:name=".DescrProfile" />
         <activity android:name=".DescrProfileFL" />
