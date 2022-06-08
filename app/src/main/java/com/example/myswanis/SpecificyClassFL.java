@@ -63,6 +63,9 @@ public class SpecificyClassFL extends AppCompatActivity {
                         if(src.getText().toString().equals("alligatore")) {
                             Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimal.class);
                             startActivity(openPage3);
+                        } else if(src.getText().toString().equals("lucertola")) {
+                            Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimal2.class);
+                            startActivity(openPage3);
                         } else
                             Toast.makeText(SpecificyClassFL.this,"NO RESULT!",Toast.LENGTH_LONG).show();
                     };

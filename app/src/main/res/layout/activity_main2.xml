@@ -220,7 +220,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingBottom="10dp">
+            android:paddingBottom="40dp">
 
             <Button
                 android:id="@+id/button"

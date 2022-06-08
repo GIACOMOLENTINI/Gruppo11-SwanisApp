@@ -19,8 +19,8 @@ public class Gestion extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button7 = (ImageButton)findViewById(R.id.confirm_button);
-        ImageButton button8 = (ImageButton)findViewById(R.id.mod_button);
+        ImageButton button7 = (ImageButton)findViewById(R.id.mod_button);
+        ImageButton button8 = (ImageButton)findViewById(R.id.confirm_button);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -46,8 +46,7 @@ public class Gestion extends AppCompatActivity {
         button7.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE CONFERMATA!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage2 = new Intent(Gestion.this,ConfirmSegn.class);
+                        Intent openPage2 = new Intent(Gestion.this,ModSegnal.class);
                         startActivity(openPage2);
                     };
                 });

@@ -8,9 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.MySwanis">
-        <activity android:name=".Login"></activity>
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@style/Theme.MySwanis" />
+
+        <activity android:name=".Login" />
         <activity android:name=".Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,28 +21,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SpecificyClass2"></activity>
-        <activity android:name=".SpecificyClass2FL"></activity>
-        <activity android:name=".SpecificyClass"></activity>
-        <activity android:name=".SpecificyClassFL"></activity>
-        <activity android:name=".CompilaClass"></activity>
-        <activity android:name=".CompilaClassFL"></activity>
-        <activity android:name=".MainActivity2"></activity>
-        <activity android:name=".ProjectActivity"></activity>
-        <activity android:name=".DescrAnimal"></activity>
-        <activity android:name=".Gestion"></activity>
-        <activity android:name=".ProjectClass"></activity>
-        <activity android:name=".CreazioneProgetto"></activity>
-        <activity android:name=".ProjectActivityManage"></activity>
-        <activity android:name=".LuogoSegn"></activity>
-        <activity android:name=".ModSegnal"></activity>
-        <activity android:name=".DescrProfile"></activity>
-        <activity android:name=".DescrProfileFL"></activity>
-        <activity android:name=".ConfirmSegn"></activity>
-        <activity android:name=".DeleteSegn"></activity>
-        <activity android:name=".ResetPw"></activity>
-        <activity android:name=".CompilaReg"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SpecificyClass2" />
+        <activity android:name=".SpecificyClass2FL" />
+        <activity android:name=".SpecificyClass" />
+        <activity android:name=".SpecificyClassFL" />
+        <activity android:name=".CompilaClass" />
+        <activity android:name=".CompilaClassFL" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".ProjectActivity" />
+        <activity android:name=".DescrAnimal" />
+        <activity android:name=".DescrAnimal2" />
+        <activity android:name=".Gestion" />
+        <activity android:name=".ProjectClass" />
+        <activity android:name=".CreazioneProgetto" />
+        <activity android:name=".ProjectActivityManage" />
+        <activity android:name=".LuogoSegn" />
+        <activity android:name=".ModSegnal" />
+        <activity android:name=".DescrProfile" />
+        <activity android:name=".DescrProfileFL" />
+        <activity android:name=".ConfirmSegn" />
+        <activity android:name=".DeleteSegn" />
+        <activity android:name=".DeleteSegn2" />
+        <activity android:name=".ResetPw" />
+        <activity android:name=".CompilaReg" />
     </application>
 
 </manifest>

@@ -19,13 +19,13 @@ public class ConfirmSegn extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button9 = (ImageButton)findViewById(R.id.btnDelete);
+        ImageButton button9 = (ImageButton)findViewById(R.id.btnConfirm);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ConfirmSegn.this,ProjectActivityManage.class);
-                        startActivity(openPage2);
+                        Intent openPage1 = new Intent(ConfirmSegn.this,ProjectActivityManage.class);
+                        startActivity(openPage1);
                     };
                 });
         button5.setOnClickListener(
@@ -45,7 +45,7 @@ public class ConfirmSegn extends AppCompatActivity {
         button9.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE ELIMINATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE CONFERMATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
                         Intent openPage2 = new Intent(ConfirmSegn.this, DeleteSegn.class);
                         startActivity(openPage2);
                     };
