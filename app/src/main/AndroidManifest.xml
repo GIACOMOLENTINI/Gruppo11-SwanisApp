@@ -34,6 +34,7 @@
         <activity android:name=".DescrAnimal2" />
         <activity android:name=".Gestion" />
         <activity android:name=".ProjectClass" />
+        <activity android:name=".ProjectClass2" />
         <activity android:name=".CreazioneProgetto" />
         <activity android:name=".ProjectActivityManage" />
         <activity android:name=".ModSegnal" />
