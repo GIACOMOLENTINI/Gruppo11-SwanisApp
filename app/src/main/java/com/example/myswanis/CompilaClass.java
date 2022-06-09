@@ -23,8 +23,8 @@ import com.google.android.gms.common.api.Response;
 
 public class CompilaClass extends AppCompatActivity {
 
-    private static final int PHOTO_REQUEST_CODE = 0;
 
+    ImageView foto;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +35,7 @@ public class CompilaClass extends AppCompatActivity {
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
         ImageButton button7 = (ImageButton)findViewById(R.id.imageButton8);
-        ImageView foto = (ImageView)findViewById(R.id.imageView2);
+        foto = (ImageView)findViewById(R.id.imageView2);
         ImageView utente = (ImageView)findViewById(R.id.imageView);
         utente.setImageResource(R.drawable.francesco);
         TextView person = (TextView)findViewById(R.id.textView4);
@@ -89,19 +89,13 @@ public class CompilaClass extends AppCompatActivity {
                 Intent selectImage = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(selectImage, 1);
             }
-            protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-                if (requestCode == 1) {
-                    Uri selImg = data.getData();
-                    String[]filePath = {MediaStore.Images.Media.DATA};
-                    Cursor c = getContentResolver().query(selImg, filePath, null, null, null);
-                    c.moveToFirst();
-                    int columnIndex = c.getColumnIndex(filePath[0]);
-                    String picPath = c.getString(columnIndex);
-                    Bitmap pic = (BitmapFactory.decodeFile(picPath));
-                    foto.setImageBitmap(pic);
-                    c.close();
-                }
-            }
+
         });
+    }
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == 1) {
+            foto.setImageURI(data.getData());
+        }
+
     }
 }
