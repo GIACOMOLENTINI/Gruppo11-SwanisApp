@@ -44,7 +44,7 @@ public class DeleteSegn extends AppCompatActivity {
         button9.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE CONFERMATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE ELIMINATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
                         Intent openPage2 = new Intent(DeleteSegn.this, DeleteSegn2.class);
                         startActivity(openPage2);
                     };
