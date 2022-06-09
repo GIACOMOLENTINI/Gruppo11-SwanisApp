@@ -321,7 +321,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/layout_bg"
                 android:translationX="250dp"
-                android:src="@drawable/ic_utente"/>
+                android:src="@drawable/info"/>
 
         </LinearLayout>
 

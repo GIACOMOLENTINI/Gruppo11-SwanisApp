@@ -17,7 +17,7 @@ public class ProjectClass extends AppCompatActivity {
         setContentView(R.layout.descrizione_progetto);
 
         Button button3 = (Button)findViewById(R.id.btn);
-        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton21);
+        ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
 
@@ -26,7 +26,7 @@ public class ProjectClass extends AppCompatActivity {
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Toast.makeText(getApplicationContext(), "PARTECIPAZIONE EFFETTUATA!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage1 = new Intent(ProjectClass.this,MainActivity.class);
+                        Intent openPage1 = new Intent(ProjectClass.this,ListProg.class);
                         startActivity(openPage1);
                     };
                 });
