@@ -28,21 +28,21 @@ public class ListProg extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(ListProg.this,ProjectActivityManage.class);
+                        Intent openPage1 = new Intent(ListProg.this,ProjectActivity.class);
                         startActivity(openPage1);
                     };
                 });
         button5.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ListProg.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(ListProg.this,MainActivity.class);
                         startActivity(openPage2);
                     };
                 });
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ListProg.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(ListProg.this,MainActivity.class);
                         startActivity(openPage2);
                     };
                 });
