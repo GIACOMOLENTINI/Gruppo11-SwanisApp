@@ -1,3 +1,4 @@
+
 package com.example.myswanis;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,7 +26,7 @@ public class ProjectClass extends AppCompatActivity {
         button3.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "PARTECIPAZIONE EFFETTUATA!!!" , Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "PARTECIPAZIONE CONFERMATA!!!" , Toast.LENGTH_LONG).show();
                         Intent openPage1 = new Intent(ProjectClass.this,ListProg.class);
                         startActivity(openPage1);
                     };
