@@ -38,7 +38,7 @@ public class DescrProfileFL extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Toast.makeText(DescrProfileFL.this,"ALREADY ON PROFILE PAGE",Toast.LENGTH_LONG).show();
+                        Toast.makeText(DescrProfileFL.this,"GIÀ SEI NEL PROFILO",Toast.LENGTH_LONG).show();
                     };
                 });
         button7.setOnClickListener(

@@ -32,7 +32,7 @@ public class SpecificyClass2 extends AppCompatActivity {
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(SpecificyClass2.this,DescrAnimal.class);
+                        Intent openPage1 = new Intent(SpecificyClass2.this,DescrAnimal2.class);
                         startActivity(openPage1);
                     };
                 });

@@ -21,7 +21,6 @@ public class ListProg extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button9 = (ImageButton)findViewById(R.id.btnConfirm);
         ImageView utente = (ImageView)findViewById(R.id.imageView);
         utente.setImageResource(R.drawable.francesco);
 
@@ -42,15 +41,7 @@ public class ListProg extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ListProg.this,MainActivity.class);
-                        startActivity(openPage2);
-                    };
-                });
-        button9.setOnClickListener(
-                new ImageButton.OnClickListener() {
-                    public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE CONFERMATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage2 = new Intent(ListProg.this, DeleteSegn.class);
+                        Intent openPage2 = new Intent(ListProg.this,DescrProfile.class);
                         startActivity(openPage2);
                     };
                 });

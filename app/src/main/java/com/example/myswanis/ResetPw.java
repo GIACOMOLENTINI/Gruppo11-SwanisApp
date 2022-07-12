@@ -28,7 +28,7 @@ public class ResetPw extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Toast.makeText(ResetPw.this,"SEND TO EMAIL!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(ResetPw.this,"INVIO MAIL RESET EFFETTUATA!",Toast.LENGTH_LONG).show();
                     Intent openPage1 = new Intent(ResetPw.this,Login.class);
                     startActivity(openPage1);
                 }

@@ -62,10 +62,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Gli alligatori sono rettili appartenenti al genere Alligator, della famiglia Alligatoridae. Le uniche due specie viventi sono l'alligatore del Mississippi e l'alligatore cinese. Il genere contiene anche diverse specie estinte conosciute da resti fossili. Gli alligatori apparvero per la prima volta circa 37 milioni di anni fa"
                         android:layout_marginTop="10dp"
+                        android:text="Durante una visita, puoi assistere a uno spettacolo di alligatori e assistere a un pasto di alligatori, sarai stupito come i conduttori entrano in un’arena e usano tecniche di cattura tramandate dai nativi americani per gestire e frenare gli alligatori. Imparerai tutto sugli alligatori, così come sui loro parenti rettiliani, come coccodrilli e caimani, in questo spettacolo educativo ed emozionante."
                         android:textColor="@color/black"
-                        android:textSize="14dp"/>
+                        android:textSize="14dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -84,11 +84,12 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:background="@drawable/store"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Lorem ipsum S.R.L."
-                            android:layout_marginLeft="10dp"/>
+                            android:layout_marginLeft="10dp"
+                            android:text="Everglades Alligator Farm" />
 
                     </LinearLayout>
 
@@ -159,11 +160,12 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:background="@drawable/loc"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Locanda degli alpinisti"
-                            android:layout_marginLeft="10dp"/>
+                            android:layout_marginLeft="10dp"
+                            android:text="MISSISIPI" />
 
                     </LinearLayout>
 
@@ -192,24 +194,24 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="@drawable/layout_bg"
-                android:translationX="15dp"
-                android:src="@drawable/ic_data"/>
+                android:src="@drawable/ic_data"
+                android:translationX="15dp" />
 
             <ImageButton
                 android:id="@+id/imageButton21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="@drawable/layout_bg"
-                android:translationX="125dp"
-                android:src="@drawable/ic_home"/>
+                android:src="@drawable/ic_home"
+                android:translationX="125dp" />
 
             <ImageButton
                 android:id="@+id/imageButton22"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="@drawable/layout_bg"
-                android:translationX="250dp"
-                android:src="@drawable/ic_utente"/>
+                android:src="@drawable/ic_utente"
+                android:translationX="250dp" />
 
         </LinearLayout>
     </LinearLayout>

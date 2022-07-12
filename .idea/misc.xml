@@ -10,14 +10,20 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.12590579710144928" />
-        <entry key="app/src/main/res/layout/activity_project.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_project_manage.xml" value="0.10597826086956522" />
+        <entry key="app/src/main/res/layout/activity_project.xml" value="0.23360595703125" />
+        <entry key="app/src/main/res/layout/activity_project2.xml" value="0.42134857177734375" />
+        <entry key="app/src/main/res/layout/activity_project_manage.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/animal_Map.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/animal_map.xml" value="0.165" />
         <entry key="app/src/main/res/layout/compila_layout.xml" value="0.12590579710144928" />
-        <entry key="app/src/main/res/layout/descrizione_animal.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/descrizione_animal.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/layout/descrizione_animal2.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/descrizione_flavia.xml" value="0.6258646424032129" />
         <entry key="app/src/main/res/layout/descrizione_profilo.xml" value="0.29374238972627353" />
         <entry key="app/src/main/res/layout/descrizione_profiloFL.xml" value="0.10597826086956522" />
-        <entry key="app/src/main/res/layout/gestione_segnal.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/descrizione_progetto.xml" value="0.20358428955078126" />
+        <entry key="app/src/main/res/layout/gestione_segnal.xml" value="0.22486819944519928" />
+        <entry key="app/src/main/res/layout/list_prog.xml" value="0.21693840579710144" />
         <entry key="app/src/main/res/layout/luogo_segnal.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/mod_segnal.xml" value="0.10597826086956522" />
         <entry key="app/src/main/res/layout/segnal_confirm.xml" value="0.335" />

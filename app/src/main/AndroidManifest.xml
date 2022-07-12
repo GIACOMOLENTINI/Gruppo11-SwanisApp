@@ -47,5 +47,6 @@
         <activity android:name=".CompilaReg" />
         <activity android:name=".ListProg" />
         <activity android:name=".ListProgFL" />
+        <activity android:name=".MapAnimal" />
     </application>
 </manifest>

@@ -19,6 +19,7 @@ public class DescrAnimal extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
+        Button btn = (Button)findViewById(R.id.btnMap);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -41,6 +42,15 @@ public class DescrAnimal extends AppCompatActivity {
                         startActivity(openPage2);
                     };
                 });
+
+        btn.setOnClickListener(
+                new Button.OnClickListener(){
+                    public void onClick(View v){
+                        Intent openMap = new Intent(DescrAnimal.this, MapAnimal.class);
+                        startActivity(openMap);
+                    }
+                }
+        );
 
     }
 }

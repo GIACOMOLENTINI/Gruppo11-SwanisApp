@@ -74,7 +74,7 @@ public class SpecificyClassFL extends AppCompatActivity {
                             Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimal2.class);
                             startActivity(openPage3);
                         } else
-                            Toast.makeText(SpecificyClassFL.this,"NO RESULT!",Toast.LENGTH_LONG).show();
+                            Toast.makeText(SpecificyClassFL.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();
                     };
                 });
     }

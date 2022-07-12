@@ -42,15 +42,7 @@ public class ListProgFL extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ListProgFL.this,MainActivity2.class);
-                        startActivity(openPage2);
-                    };
-                });
-        button9.setOnClickListener(
-                new ImageButton.OnClickListener() {
-                    public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "SEGNALAZIONE CONFERMATA CORRETTAMENTE!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage2 = new Intent(ListProgFL.this, DeleteSegn.class);
+                        Intent openPage2 = new Intent(ListProgFL.this,DescrProfileFL.class);
                         startActivity(openPage2);
                     };
                 });

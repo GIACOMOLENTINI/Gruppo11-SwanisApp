@@ -78,7 +78,7 @@ public class MainActivity2 extends AppCompatActivity {
                             Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal2.class);
                             startActivity(openPage3);
                         } else
-                            Toast.makeText(MainActivity2.this,"NO RESULT!",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity2.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();
                     };
                 });
     }

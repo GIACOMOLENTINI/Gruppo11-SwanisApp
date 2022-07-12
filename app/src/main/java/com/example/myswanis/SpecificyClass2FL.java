@@ -32,7 +32,7 @@ public class SpecificyClass2FL extends AppCompatActivity {
         button1.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage1 = new Intent(SpecificyClass2FL.this,DescrAnimal.class);
+                        Intent openPage1 = new Intent(SpecificyClass2FL.this,DescrAnimal2.class);
                         startActivity(openPage1);
                     };
                 });
@@ -53,7 +53,7 @@ public class SpecificyClass2FL extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(SpecificyClass2FL.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(SpecificyClass2FL.this,DescrProfileFL.class);
                         startActivity(openPage2);
                     };
                 });
