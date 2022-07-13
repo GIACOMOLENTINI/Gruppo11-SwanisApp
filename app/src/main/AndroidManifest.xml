@@ -51,5 +51,7 @@
         <activity android:name=".MapAnimalFL" />
         <activity android:name=".DescrAnimalFL" />
         <activity android:name=".DescrAnimal2FL" />
+        <activity android:name=".GestProgetti" />
+        <activity android:name=".GestProgetti2" />
     </application>
 </manifest>
