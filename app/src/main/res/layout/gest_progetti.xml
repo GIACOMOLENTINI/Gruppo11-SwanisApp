@@ -79,34 +79,20 @@
                             android:layout_width="230dp"
                             android:layout_height="80dp"
                             android:id="@+id/text10"
-                            android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie: Canis latrans\nAppartenenza: Canidi\nLocalizzazione: Big Cypress, Florida, USA"
+                            android:text="Immersi nelle profondità del Mississipi"
                             android:textSize="12dp"
                             android:textColor="@color/black"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp" />
 
                         <ImageButton
-                            android:id="@+id/confirm_button"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
-                            android:background="@drawable/done"/>
-                        <ImageButton
                             android:id="@+id/mod_button"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
+                            android:translationX="-50dp"
                             android:background="@drawable/modifica"/>
 
-                        <ImageButton
-                            android:id="@+id/delete_button"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:background="@drawable/cestino"
-                            android:translationX="-100dp" />
 
                     </LinearLayout>
 
@@ -125,7 +111,7 @@
                             android:layout_width="230dp"
                             android:layout_height="80dp"
                             android:id="@+id/text11"
-                            android:text="Segnalazione nr. A10124\nSalvatore Vinci\nSpecie: Emys orbicularis\nAppartenenza: Emididi\nLocalizzazione: Brola, Mantova, Italia"
+                            android:text="Il ritrovo nella savana"
                             android:textSize="12dp"
                             android:textColor="@color/black"
                             android:layout_marginTop="10dp"
@@ -135,20 +121,8 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
-                            android:background="@drawable/done"/>
-                        <ImageButton
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
+                            android:translationX="-50dp"
                             android:background="@drawable/modifica"/>
-                        <ImageButton
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
-                            android:background="@drawable/cestino"/>
 
                     </LinearLayout>
 
@@ -167,7 +141,7 @@
                             android:layout_width="230dp"
                             android:layout_height="80dp"
                             android:id="@+id/text12"
-                            android:text="Segnalazione nr. A10125\nRosaria Di Benedetto\nSpecie: Mammiferi\nAppartenenza: Equidi\nLocalizzazione: Kakuma, Kenya"
+                            android:text="Corri...più veloce della lepre!!"
                             android:textSize="12dp"
                             android:textColor="@color/black"
                             android:layout_marginTop="10dp"
@@ -177,20 +151,8 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
-                            android:background="@drawable/done"/>
-                        <ImageButton
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
+                            android:translationX="-50dp"
                             android:background="@drawable/modifica"/>
-                        <ImageButton
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-100dp"
-                            android:background="@drawable/cestino"/>
 
                     </LinearLayout>
 
