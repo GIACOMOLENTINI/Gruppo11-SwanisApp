@@ -34,7 +34,7 @@ public class CreazioneProgetto extends AppCompatActivity {
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CreazioneProgetto.this,ProjectActivity.class);
+                        Intent openPage2 = new Intent(CreazioneProgetto.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
@@ -48,7 +48,7 @@ public class CreazioneProgetto extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CreazioneProgetto.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(CreazioneProgetto.this,DescrProfileFL.class);
                         startActivity(openPage2);
                     };
                 });

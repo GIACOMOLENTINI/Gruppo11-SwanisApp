@@ -66,7 +66,7 @@ public class CompilaClass extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CompilaClass.this,MainActivity.class);
+                        Intent openPage2 = new Intent(CompilaClass.this,DescrProfile.class);
                         startActivity(openPage2);
                     };
                 });
@@ -93,6 +93,7 @@ public class CompilaClass extends AppCompatActivity {
         });
     }
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 1) {
             foto.setImageURI(data.getData());
         }

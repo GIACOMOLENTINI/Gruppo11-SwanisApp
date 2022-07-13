@@ -18,7 +18,7 @@
                 android:layout_width="180dp"
                 android:layout_height="180dp"
                 android:background="@drawable/lepre"
-                android:translationX="100dp" />
+                android:translationX="110dp" />
 
         </LinearLayout>
 
@@ -30,10 +30,10 @@
                 android:id="@+id/textView7"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:text="LEPRE BELGA"
+                android:text="LEPRE RODITORE"
                 android:textColor="@color/white"
                 android:textSize="30dp"
-                android:translationX="110dp" />
+                android:translationX="80dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -56,9 +56,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hanno una testa piatta e triangolare, tronco piatto e coda lunga; si tratta di quadrupedi, anche con zampe non evidenti, minuscole ed orecchie esterne prive di padiglione auricolare. Hanno occhi con pupille nere e iride gialla, palpebre, una lingua biforcuta che funge da organo di tatto e come arma di caccia: tramite la saliva trattiene le piccole prede di cui si nutre, come insetti, larve e vermi. È dotata di due robuste mascelle e due file di denti simmetrici.
-
-È caratterizzata dall'autotomia, la capacità di staccare una porzione della propria coda in caso di pericolo, ingannando il predatore; questa ricrescerà successivamente. La lunghezza degli adulti varia da pochi centimetri a tre metri circa."
+                        android:text="I lagomorfi (Lagomorpha Brandt, 1855) sono un ordine di Mammiferi, comprendente le due famiglie viventi dei Leporidae (lepri e conigli) e degli Ochotonidae (pica), alle quali vanno aggiunte la famiglie estinte dei Prolagidae, dei Mimotonidae e dei Mimolagidae."
                         android:layout_marginTop="18dp"
                         android:textColor="@color/black"
                         android:textSize="14dp"/>
@@ -101,7 +99,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="CLASSE        Reptilia"
+                            android:text="CLASSE        Mammiferi"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -119,7 +117,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ORDINE        Squamata"
+                            android:text="ORDINE        Roditori"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -137,7 +135,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="FAMIGLIA        Lucertole"
+                            android:text="FAMIGLIA        Lepri"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -155,7 +153,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="GENERE        Lepidosauro"
+                            android:text="GENERE        Lepre roditore"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -173,7 +171,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="SPECIE        Lacertilia"
+                            android:text="SPECIE        Mammiferi"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -191,7 +189,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NOME COMUNE        Lucertola"
+                            android:text="NOME COMUNE        Lepre"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -213,11 +211,11 @@
                             android:id="@+id/segnal"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/geco"/>
+                            android:background="@drawable/lepreRoditore1"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mario Rossi        Drago di Komodo"
+                            android:text="Mario Rossi        Lepre roditrice"
                             android:layout_marginLeft="10dp"/>
 
                     </LinearLayout>
@@ -231,11 +229,11 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/lucertolamuraiola"/>
+                            android:background="@drawable/lepreRoditore2"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Franca Rosati        Lucertola muraiola"
+                            android:text="Franca Rosati        Lepre roditore"
                             android:layout_marginLeft="10dp"/>
                     </LinearLayout>
 

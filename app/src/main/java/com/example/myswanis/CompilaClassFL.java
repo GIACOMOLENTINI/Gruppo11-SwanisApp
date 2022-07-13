@@ -56,7 +56,7 @@ public class CompilaClassFL extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(CompilaClassFL.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(CompilaClassFL.this,DescrProfileFL.class);
                         startActivity(openPage2);
                     };
                 });

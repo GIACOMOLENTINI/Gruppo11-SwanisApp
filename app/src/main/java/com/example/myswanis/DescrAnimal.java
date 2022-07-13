@@ -38,7 +38,7 @@ public class DescrAnimal extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(DescrAnimal.this,MainActivity.class);
+                        Intent openPage2 = new Intent(DescrAnimal.this,DescrProfile.class);
                         startActivity(openPage2);
                     };
                 });

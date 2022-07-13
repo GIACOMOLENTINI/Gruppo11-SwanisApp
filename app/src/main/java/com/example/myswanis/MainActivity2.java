@@ -72,10 +72,10 @@ public class MainActivity2 extends AppCompatActivity {
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         if(src.getText().toString().equals("alligatore")) {
-                            Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal.class);
+                            Intent openPage3 = new Intent(MainActivity2.this,DescrAnimalFL.class);
                             startActivity(openPage3);
                         } else if(src.getText().toString().equals("lucertola")) {
-                            Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal2.class);
+                            Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal2FL.class);
                             startActivity(openPage3);
                         } else
                             Toast.makeText(MainActivity2.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();

@@ -36,7 +36,7 @@ public class DeleteSegn2 extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(DeleteSegn2.this,MainActivity2.class);
+                        Intent openPage2 = new Intent(DeleteSegn2.this,DescrProfileFL.class);
                         startActivity(openPage2);
                     };
                 });
