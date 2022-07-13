@@ -211,7 +211,7 @@
                             android:id="@+id/segnal"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/lepreRoditore1"/>
+                            android:background="@drawable/lepreroditore"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -229,7 +229,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/lepreRoditore2"/>
+                            android:background="@drawable/lepreroditorea"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

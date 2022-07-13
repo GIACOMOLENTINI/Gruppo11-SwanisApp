@@ -54,7 +54,7 @@
                     android:id="@+id/mapview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/mapAlligator"
+                    android:background="@drawable/mapalligator"
                     android:translationX="30dp"/>
             </ScrollView>
 
