@@ -74,7 +74,7 @@ public class MainActivity2 extends AppCompatActivity {
                         if(src.getText().toString().equals("alligatore")) {
                             Intent openPage3 = new Intent(MainActivity2.this,DescrAnimalFL.class);
                             startActivity(openPage3);
-                        } else if(src.getText().toString().equals("lucertola")) {
+                        } else if(src.getText().toString().equals("lepre roditore")) {
                             Intent openPage3 = new Intent(MainActivity2.this,DescrAnimal2FL.class);
                             startActivity(openPage3);
                         } else

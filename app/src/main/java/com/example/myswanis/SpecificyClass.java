@@ -63,9 +63,6 @@ public class SpecificyClass extends AppCompatActivity {
                         if(src.getText().toString().equals("alligatore")) {
                             Intent openPage3 = new Intent(SpecificyClass.this,DescrAnimal.class);
                             startActivity(openPage3);
-                        } else if(src.getText().toString().equals("lucertola")) {
-                            Intent openPage3 = new Intent(SpecificyClass.this,DescrAnimal2.class);
-                            startActivity(openPage3);
                         } else
                             Toast.makeText(SpecificyClass.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();
                     };

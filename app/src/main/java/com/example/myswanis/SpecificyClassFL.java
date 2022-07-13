@@ -68,10 +68,7 @@ public class SpecificyClassFL extends AppCompatActivity {
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         if(src.getText().toString().equals("alligatore")) {
-                            Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimal.class);
-                            startActivity(openPage3);
-                        } else if(src.getText().toString().equals("lucertola")) {
-                            Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimal2.class);
+                            Intent openPage3 = new Intent(SpecificyClassFL.this,DescrAnimalFL.class);
                             startActivity(openPage3);
                         } else
                             Toast.makeText(SpecificyClassFL.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="298dp"
+                android:layout_height="90dp"
+                android:text="GESTIONE PROGETTI"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/flavia" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="FLAVIA"
+                android:textSize="16dp"
+                android:translationX="480dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/layout_bgcerca">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="510dp">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="350dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layout"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/alligatmissisi"/>
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/text10"
+                            android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie: Canis latrans\nAppartenenza: Canidi\nLocalizzazione: Big Cypress, Florida, USA"
+                            android:textSize="12dp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <ImageButton
+                            android:id="@+id/confirm_button"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/done"/>
+                        <ImageButton
+                            android:id="@+id/mod_button"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/modifica"/>
+
+                        <ImageButton
+                            android:id="@+id/delete_button"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:background="@drawable/cestino"
+                            android:translationX="-100dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/zebra"/>
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/text11"
+                            android:text="Segnalazione nr. A10124\nSalvatore Vinci\nSpecie: Emys orbicularis\nAppartenenza: Emididi\nLocalizzazione: Brola, Mantova, Italia"
+                            android:textSize="12dp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/done"/>
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/modifica"/>
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/cestino"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/lepre"/>
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/text12"
+                            android:text="Segnalazione nr. A10125\nRosaria Di Benedetto\nSpecie: Mammiferi\nAppartenenza: Equidi\nLocalizzazione: Kakuma, Kenya"
+                            android:textSize="12dp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/done"/>
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/modifica"/>
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="85dp"
+                            android:translationX="-100dp"
+                            android:background="@drawable/cestino"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="15dp"
+                android:src="@drawable/ic_data"/>
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="125dp"
+                android:src="@drawable/ic_home"/>
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layout_bg"
+                android:translationX="250dp"
+                android:src="@drawable/ic_utente"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

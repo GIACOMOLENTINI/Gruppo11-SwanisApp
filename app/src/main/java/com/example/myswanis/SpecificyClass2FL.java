@@ -57,5 +57,15 @@ public class SpecificyClass2FL extends AppCompatActivity {
                         startActivity(openPage2);
                     };
                 });
+        btnSrc.setOnClickListener(
+                new ImageButton.OnClickListener() {
+                    public void onClick(View v) {
+                        if(src.getText().toString().equals("lepre roditore")) {
+                            Intent openPage3 = new Intent(SpecificyClass2FL.this,DescrAnimal2FL.class);
+                            startActivity(openPage3);
+                        } else
+                            Toast.makeText(SpecificyClass2FL.this,"NESSUN RISULTATO!",Toast.LENGTH_LONG).show();
+                    };
+                });
     }
 }

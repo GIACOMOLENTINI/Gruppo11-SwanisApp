@@ -55,7 +55,7 @@ public class ProjectActivityManage extends AppCompatActivity {
         button8.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ProjectActivityManage.this,ProjectClass.class);
+                        Intent openPage2 = new Intent(ProjectActivityManage.this,ProjectClass2.class);
                         startActivity(openPage2);
                     };
                 });
@@ -63,7 +63,7 @@ public class ProjectActivityManage extends AppCompatActivity {
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Toast.makeText(getApplicationContext(), "PARTECIPAZIONE CONFERMATA!!!" , Toast.LENGTH_LONG).show();
-                        Intent openPage2 = new Intent(ProjectActivityManage.this,ListProgFL.class);
+                        Intent openPage2 = new Intent(ProjectActivityManage.this,ProjectActivityManage.class);
                         startActivity(openPage2);
                     };
                 });
