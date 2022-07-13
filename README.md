@@ -40,7 +40,7 @@
 
 ## TASK T4.2 Modifica progetto
 
-### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la conferma viene effettuata
+### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata solo dal profilo dell'admin dove attraverso il button info si apre la pagina che gestisce i progetti
 
 ## TASK T4.3 Partecipa al progetto
 
