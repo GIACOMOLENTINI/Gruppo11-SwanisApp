@@ -46,7 +46,6 @@
         <activity android:name=".ResetPw" />
         <activity android:name=".CompilaReg" />
         <activity android:name=".ListProg" />
-        <activity android:name=".ListProgFL" />
         <activity android:name=".MapAnimal" />
         <activity android:name=".MapAnimalFL" />
         <activity android:name=".DescrAnimalFL" />

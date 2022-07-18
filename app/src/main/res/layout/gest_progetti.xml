@@ -15,27 +15,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="298dp"
-                android:layout_height="90dp"
-                android:text="GESTIONE PROGETTI"
-                android:layout_marginTop="20dp"
-                android:layout_marginHorizontal="16dp"
+                android:id="@+id/textView7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="MODIFICA PROGETTO"
+                android:layout_marginHorizontal="30dp"
                 android:textColor="@color/white"
-                android:textSize="30dp" />
+                android:paddingTop="10dp"
+                android:textSize="30dp"/>
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
+                android:translationX="40dp"
                 android:background="@drawable/flavia" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
 
             <TextView
                 android:id="@+id/textView4"
@@ -43,9 +45,13 @@
                 android:layout_height="match_parent"
                 android:text="FLAVIA"
                 android:textSize="16dp"
-                android:translationX="480dp"
+                android:translationX="330dp"
                 android:textColor="@color/white" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,8 +69,6 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:id="@+id/layout"
-                        android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
@@ -77,8 +81,8 @@
 
                         <TextView
                             android:layout_width="230dp"
-                            android:layout_height="80dp"
-                            android:id="@+id/text10"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text11"
                             android:text="Immersi nelle profondità del Mississipi"
                             android:textSize="12dp"
                             android:textColor="@color/black"
@@ -86,13 +90,22 @@
                             android:layout_marginLeft="10dp" />
 
                         <ImageButton
-                            android:id="@+id/mod_button"
+                            android:id="@+id/newbutton"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-50dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="-150dp"
                             android:background="@drawable/modifica"/>
 
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text15"
+                            android:text= "MODIFICA"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="10dp" />
 
                     </LinearLayout>
 
@@ -110,7 +123,7 @@
                         <TextView
                             android:layout_width="230dp"
                             android:layout_height="80dp"
-                            android:id="@+id/text11"
+                            android:id="@+id/text12"
                             android:text="Il ritrovo nella savana"
                             android:textSize="12dp"
                             android:textColor="@color/black"
@@ -118,11 +131,22 @@
                             android:layout_marginLeft="10dp" />
 
                         <ImageButton
+                            android:id="@+id/newbutton"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-50dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="-150dp"
                             android:background="@drawable/modifica"/>
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text15"
+                            android:text= "MODIFICA"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="10dp" />
 
                     </LinearLayout>
 
@@ -140,7 +164,7 @@
                         <TextView
                             android:layout_width="230dp"
                             android:layout_height="80dp"
-                            android:id="@+id/text12"
+                            android:id="@+id/text13"
                             android:text="Corri...più veloce della lepre!!"
                             android:textSize="12dp"
                             android:textColor="@color/black"
@@ -148,18 +172,24 @@
                             android:layout_marginLeft="10dp" />
 
                         <ImageButton
+                            android:id="@+id/newbutton"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_marginTop="85dp"
-                            android:translationX="-50dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="-150dp"
                             android:background="@drawable/modifica"/>
 
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text15"
+                            android:text= "MODIFICA"
+                            android:textSize="12dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="10dp" />
+
                     </LinearLayout>
-
-
-
-
-
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>

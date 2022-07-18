@@ -40,7 +40,7 @@ public class ProjectActivityManage extends AppCompatActivity {
         button6.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
-                        Intent openPage2 = new Intent(ProjectActivityManage.this,ListProgFL.class);
+                        Intent openPage2 = new Intent(ProjectActivityManage.this,GestProgetti.class);
                         startActivity(openPage2);
                     };
                 });

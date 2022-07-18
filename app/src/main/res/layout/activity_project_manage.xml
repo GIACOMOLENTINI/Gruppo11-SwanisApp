@@ -279,7 +279,7 @@
                         <Button
                             android:id="@+id/btt10"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="43dp"
                             android:layout_marginLeft="-130dp"
                             android:layout_marginTop="70dp"
                             android:background="@drawable/layout_bgcerca"

@@ -3,6 +3,7 @@ package com.example.myswanis;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -19,7 +20,7 @@ public class GestProgetti extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button9 = (ImageButton)findViewById(R.id.mod_button);
+        ImageButton modifica = (ImageButton)findViewById(R.id.newbutton);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
@@ -42,7 +43,7 @@ public class GestProgetti extends AppCompatActivity {
                         startActivity(openPage2);
                     };
                 });
-        button9.setOnClickListener(
+        modifica.setOnClickListener(
                 new ImageButton.OnClickListener() {
                     public void onClick(View v) {
                         Intent openPage2 = new Intent(GestProgetti.this, GestProgetti2.class);
