@@ -22,6 +22,12 @@
 
 ### Il button di ricerca, ai fini dimostrativi mostra una specie animale facendo la ricerca per alligatore o lepre roditore
 
+## N.B.
+
+### NOTE INERENTI AL TASK T3.X
+
+#### PER AVER MODO DI TESTARE TUTTI I TASK, ABBIAMO FATTO IN MODO CHE PER TESTARE IL TASK DI CONFERMARE LA SEGNALAZIONE E' NECESSARIO TESTARE PRIMA IL TASK DI MODIFICA SEGNALAZIONE
+
 ## TASK T3.2 Modifica segnalazione
 
 ### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata alla prima segnalazione nella lista
@@ -40,7 +46,7 @@
 
 ## TASK T4.2 Modifica progetto
 
-### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata solo dal profilo dell'admin dove attraverso il button info si apre la pagina che gestisce i progetti
+### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata solo dal profilo dell'admin dove attraverso il button info si apre la pagina che gestisce i progetti e ne rende possibile la modifica, attraverso il primo progetto
 
 ## TASK T4.3 Partecipa al progetto
 
