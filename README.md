@@ -30,15 +30,15 @@
 
 ## TASK T3.2 Modifica segnalazione
 
-### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata alla prima segnalazione nella lista
+### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la modifica viene effettuata alla prima segnalazione nella lista tramite: Specie: Canis latrans     Appartenenza: Canidi    Localizzazione: Big Cypress, Florida, USA
 
 ## TASK T3.1 Conferma segnalazione
 
-### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la conferma viene effettuata alla seconda segnalazione nella lista
+### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, la conferma viene effettuata alla stessa segnalazione della modifica
 
 ## TASK T3.3 Elimina segnalazione
 
-### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, l'eliminazione viene effettuata alla terza segnalazione nella lista
+### Il task può essere effettuato attraverso la possibilità che ha l'admin di gestire le segnalazioni, l'eliminazione viene effettuata alla successiva segnalazione nella lista
 
 ## TASK T4.1 Creazione progetto
 
