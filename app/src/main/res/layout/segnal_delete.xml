@@ -71,6 +71,51 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
+                        android:background="@drawable/testugpalustre"/>
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/text11"
+                        android:text="Segnalazione nr. A10124\nSalvatore Vinci\nSpecie: Emys orbicularis\nAppartenenza: Emididi\nLocalizzazione: Brola, Mantova, Italia"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageButton
+                        android:id="@+id/btnConfirm"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="85dp"
+                        android:translationX="-100dp"
+                        android:background="@drawable/done"/>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="85dp"
+                        android:translationX="-100dp"
+                        android:background="@drawable/modifica"/>
+
+                    <ImageButton
+                        android:id="@+id/btnDelete"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/cestino"
+                        android:translationX="-100dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
                         android:background="@drawable/zebra"/>
 
                     <TextView
@@ -121,48 +166,6 @@
                         android:layout_height="80dp"
                         android:id="@+id/text13"
                         android:text="Segnalazione nr. A10126\nGiovanna Sesti\nSpecie: Passeracei\nAppartenenza: Pandionidi\nLocalizzazione: Gold Coast, Australia"
-                        android:textSize="12dp"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp" />
-
-                    <ImageButton
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="85dp"
-                        android:translationX="-100dp"
-                        android:background="@drawable/done"/>
-                    <ImageButton
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="85dp"
-                        android:translationX="-100dp"
-                        android:background="@drawable/modifica"/>
-                    <ImageButton
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="85dp"
-                        android:translationX="-100dp"
-                        android:background="@drawable/cestino"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:background="@drawable/lepre"/>
-
-                    <TextView
-                        android:layout_width="230dp"
-                        android:layout_height="80dp"
-                        android:id="@+id/text14"
-                        android:text="Segnalazione nr. A10127\nLuca Toni\nSpecie: Mammiferi\nAppartenenza: Leporidi\nLocalizzazione: Emilia Romagna, BN, Italia"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"

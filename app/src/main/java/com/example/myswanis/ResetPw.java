@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,7 +21,7 @@ public class ResetPw extends AppCompatActivity {
         setContentView(R.layout.recupera);
 
 
-        TextView username =(TextView) findViewById(R.id.email);
+        EditText username =(EditText) findViewById(R.id.email);
         Button loginbtn = (Button) findViewById(R.id.loginbtn);
 
         //admin and admin
@@ -28,9 +29,13 @@ public class ResetPw extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Toast.makeText(ResetPw.this,"INVIO MAIL RESET EFFETTUATA!",Toast.LENGTH_LONG).show();
-                    Intent openPage1 = new Intent(ResetPw.this,Login.class);
+                if (username.getText().toString().isEmpty()){
+                    Toast.makeText(ResetPw.this, "COMPILARE CAMPO", Toast.LENGTH_LONG).show();
+                }else if (!username.getText().toString().isEmpty()) {
+                    Toast.makeText(ResetPw.this, "INVIO MAIL RESET EFFETTUATA!", Toast.LENGTH_LONG).show();
+                    Intent openPage1 = new Intent(ResetPw.this, Login.class);
                     startActivity(openPage1);
+                }
                 }
         });
     }

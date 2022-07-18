@@ -35,15 +35,16 @@ public class CompilaReg extends AppCompatActivity {
         TextView  date = (TextView) findViewById(R.id.editTextTextPersonName3);
         TextView tel = (TextView) findViewById(R.id.editTextTextPersonName5);
         TextView email = (TextView) findViewById(R.id.editTextTextPersonName6);
-
-
+        String error ="CAMPO OBBLIGATORIO";
 
         button3.setOnClickListener(
                 new Button.OnClickListener() {
                    public void onClick (View v) {
-                       if (name.getText().toString().isEmpty() && surname.getText().toString().isEmpty() && date.getText().toString().isEmpty() && tel.getText().toString().isEmpty() && email.getText().toString().isEmpty() && pw.getText().toString().isEmpty() && pw2.getText().toString().isEmpty()) {
-                           Toast.makeText(CompilaReg.this, "CAMPI NON INSERITI", Toast.LENGTH_LONG).show();
-                       }else if (pw.getText().toString().equals(pw2.getText().toString())) {
+
+                           if (name.getText().toString().isEmpty() || (surname.getText().toString().isEmpty()) || (date.getText().toString().isEmpty()) || (tel.getText().toString().isEmpty()) || (email.getText().toString().isEmpty())) {
+                               Toast.makeText(CompilaReg.this, "COMPILARE TUTTI I CAMPI", Toast.LENGTH_LONG).show();
+                           }
+                       else if (pw.getText().toString().equals(pw2.getText().toString()) && (!pw.getText().toString().isEmpty()) && (!pw2.getText().toString().isEmpty())) {
                            //correct
                            Toast.makeText(CompilaReg.this, "REGISTRAZIONE AVVENUTA" , Toast.LENGTH_LONG).show();
                            Intent openPage1 = new Intent(CompilaReg.this, Login.class);

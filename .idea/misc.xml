@@ -8,6 +8,8 @@
         <entry key="..\:/Users/anton/OneDrive/Documenti/GitHub/SwanisApp/app/src/main/res/layout/compila_name.xml" value="0.36096014492753625" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/activity_project_manage.xml" value="0.1598731884057971" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/animal_map.xml" value="0.1" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/compila_layout.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/compila_name.xml" value="0.14855072463768115" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/creazione_progetto.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/descrizione_animal.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/descrizione_animal2.xml" value="0.264" />
@@ -16,7 +18,11 @@
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/gest_progetti2.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/gestione_segnal.xml" value="0.11119554204660588" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/list_prog.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/mod_segnal.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/recupera.xml" value="0.1" />
         <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/segnal_confirm.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/segnal_delete.xml" value="0.1" />
+        <entry key="..\:/Users/giaco/AndroidStudioProjects/SwanisApp/app/src/main/res/layout/segnal_delete2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />

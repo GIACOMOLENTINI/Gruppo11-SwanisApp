@@ -79,7 +79,7 @@
                         android:layout_width="230dp"
                         android:layout_height="80dp"
                         android:id="@+id/text10"
-                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie: Canis latrans\nAppartenenza: Canidi\nLocalizzazione: Big Cypress, Florida, USA"
+                        android:text="Segnalazione nr. A10123\nMario Rossi\nSpecie: Coccodrillo\nAppartenenza: Rettili\nLocalizzazione: Monte Bianco, Italia"
                         android:textSize="12dp"
                         android:textColor="@color/black"
                         android:layout_marginTop="10dp"

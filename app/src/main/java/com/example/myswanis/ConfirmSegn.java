@@ -19,7 +19,7 @@ public class ConfirmSegn extends AppCompatActivity {
         ImageButton button4 = (ImageButton)findViewById(R.id.imageButton20);
         ImageButton button5 = (ImageButton)findViewById(R.id.imageButton21);
         ImageButton button6 = (ImageButton)findViewById(R.id.imageButton22);
-        ImageButton button9 = (ImageButton)findViewById(R.id.btnConfirm);
+        ImageButton button9 = (ImageButton)findViewById(R.id.confirm_button);
 
         button4.setOnClickListener(
                 new ImageButton.OnClickListener() {
